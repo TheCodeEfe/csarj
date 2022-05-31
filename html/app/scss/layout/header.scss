@@ -40,7 +40,7 @@ header{
                                     content: ' ';
                                     height: 100%;
                                     display: block;
-                                    background: url('/csarj/assets/img/svg/arrow.svg');
+                                    background: url('/csarj/app/img/svg/arrow.svg');
                                     width: 16px;
                                     right: 0;
                                     top: 50%;
@@ -98,7 +98,7 @@ header{
                         > li.active{
                             a{
                                 &::after{
-                                    background: url('/csarj/assets/img/svg/rotedarrow.svg') !important;
+                                    background: url('/csarj/app/img/svg/rotedarrow.svg') !important;
                                     width: 16px;
                                     height: 100%;
                                     right: 0;
@@ -137,7 +137,7 @@ header{
                 flex-wrap: wrap;
                 &--btnimg{
                         div{
-                            background: url('/csarj/assets/img/svg/burgerclosemenu.svg') !important;
+                            background: url('/csarj/app/img/svg/burgerclosemenu.svg') !important;
                             background-size: cover !important;
                       }
                 }
@@ -149,7 +149,7 @@ header{
                         width:22px;
                         height: 22px;
                         background-size: cover;
-                        background: url('/csarj/assets/img/svg/burgermenu.svg');
+                        background: url('/csarj/app/img/svg/burgermenu.svg');
                         transition: background ease-in-out 300ms;
                         -webkit-transition: background ease-in-out 300ms;
                         -moz-transition: background ease-in-out 300ms;

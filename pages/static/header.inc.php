@@ -3,7 +3,7 @@
         <nav>
             <div class="menu">
                 <div class="menu--logo">
-                    <img src="assets/img/svg/Logo.svg" alt="logo">
+                    <img src="app/img/svg/Logo.svg" alt="logo">
                 </div>
                 <div class="menu--btn">
                     <div></div>
@@ -11,27 +11,27 @@
                 <div class="menu--nav">
                     <ul>
                         <li><a href="?pg=about">
-                            <img src="assets/img/svg/car.svg" alt="">
+                            <img src="app/img/svg/car.svg" alt="">
                             <span>Hakkımızda</span>
                         </a></li>
                         <li><a href="?pg=services">
-                            <img src="assets/img/svg/star.svg" alt="">
+                            <img src="app/img/svg/star.svg" alt="">
                             <span>HİZMETLER</span>
                         </a></li>
                         <li><a href="#">
-                            <img src="assets/img/svg/map.svg" alt="">
+                            <img src="app/img/svg/map.svg" alt="">
                             <span>İSTASYON HARİTASI</span>
                         </a></li>
                         <li><a href="#">
-                            <img src="assets/img/svg/note.svg" alt="">
+                            <img src="app/img/svg/note.svg" alt="">
                             <span>REZERVASYON</span>
                         </a></li>
                         <li><a href="#">
-                            <img src="assets/img/svg/user.svg" alt="">
+                            <img src="app/img/svg/user.svg" alt="">
                             <span>ÜYELİK</span>
                         </a></li>
                         <li><a href="?pg=contact-us">
-                            <img src="assets/img/svg/gmaıl.svg" alt="">
+                            <img src="app/img/svg/gmaıl.svg" alt="">
                             <span>İLETİŞİM</span>
                         </a></li>
                     </ul>
@@ -43,12 +43,12 @@
                 <div class="menu--nav">
                     <ul>
                         <li><a href="?pg=about" class="menu--nav--li-a">
-                            <img src="assets/img/svg/car.svg" alt="">
+                            <img src="app/img/svg/car.svg" alt="">
                             <span>Hakkımızda</span>
                         </a></li>
                         <li>
                             <a href="?pg=services" class="menu--nav--li-a">
-                                <img src="assets/img/svg/star.svg" alt="">
+                                <img src="app/img/svg/star.svg" alt="">
                                 <span>HİZMETLER</span>
                             </a>
                             <ul>
@@ -60,16 +60,16 @@
                             </ul>
                         </li>
                         <li><a href="#" class="menu--nav--li-a">
-                            <img src="assets/img/svg/map.svg" alt="">
+                            <img src="app/img/svg/map.svg" alt="">
                             <span>İSTASYON HARİTASI</span>
                         </a></li>
                         <li><a href="#" class="menu--nav--li-a">
-                            <img src="assets/img/svg/note.svg" alt="">
+                            <img src="app/img/svg/note.svg" alt="">
                             <span>REZERVASYON</span>
                         </a></li>
                         <li>
                             <a href="#" class="menu--nav--li-a">
-                                <img src="assets/img/svg/user.svg" alt="">
+                                <img src="app/img/svg/user.svg" alt="">
                                 <span>ÜYELİK</span>
                             </a>
                             <ul>
@@ -81,7 +81,7 @@
                             </ul>
                         </li>
                         <li><a href="?pg=contact-us" class="menu--nav--li-a"> 
-                            <img src="assets/img/svg/gmaıl.svg" alt="">
+                            <img src="app/img/svg/gmaıl.svg" alt="">
                             <span>İLETİŞİM</span>
                         </a></li>
                     </ul>

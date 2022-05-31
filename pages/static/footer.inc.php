@@ -3,18 +3,18 @@
     <footer class="footer">
         <div class="footer-main">
             <div class="footer-main-left">
-                <img src="assets/img/svg/Logo.svg" alt="" class="logo-footer">
+                <img src="app/img/svg/Logo.svg" alt="" class="logo-footer">
                 <p class="title-footer">2M Elektrikli Araç Şarj Ağı ve İstasyon 
                     İşletmeciliği A.Ş.</p>
                 <p class="footer-adress">Ömer Avni Mah., İnebolu Sk., Ekemen İş Hanı, No: 1A
                     Kabataş / Beyoğlu / İstanbul</p>
                 <div class="footer-main-left-social">
                     <ul>
-                        <li><a href=""><img src="assets/img/svg/social/facebook.svg" alt=""></a></li>
-                        <li><a href=""><img src="assets/img/svg/social/instagram.svg" alt=""></a></li>
-                        <li><a href=""><img src="assets/img/svg/social/twitter.svg" alt=""></a></li>
-                        <li><a href=""><img src="assets/img/svg/social/youtube.svg" alt=""></a></li>
-                        <li><a href=""><img src="assets/img/svg/social/linkedin.svg" alt=""></a></li>
+                        <li><a href=""><img src="app/img/svg/social/facebook.svg" alt=""></a></li>
+                        <li><a href=""><img src="app/img/svg/social/instagram.svg" alt=""></a></li>
+                        <li><a href=""><img src="app/img/svg/social/twitter.svg" alt=""></a></li>
+                        <li><a href=""><img src="app/img/svg/social/youtube.svg" alt=""></a></li>
+                        <li><a href=""><img src="app/img/svg/social/linkedin.svg" alt=""></a></li>
                     </ul>
                 </div>
                 <div class="footer-main-left-phone">
@@ -27,7 +27,7 @@
             <div class="footer-main-right">
                 <div class="footer-main-right-box">
                     <div class="head">
-                        <img src="assets/img/svg/car.svg" alt="">
+                        <img src="app/img/svg/car.svg" alt="">
                         <h4>HAKKIMIZDA</h4>
                     </div>
                     <ul class="footer-menu">
@@ -38,7 +38,7 @@
                 </div>
                 <div class="footer-main-right-box">
                     <div class="head">
-                        <img src="assets/img/svg/star.svg" alt="">
+                        <img src="app/img/svg/star.svg" alt="">
                         <h4>HİZMETLER</h4>
                     </div>
                     <ul class="footer-menu">
@@ -50,7 +50,7 @@
                 </div>
                 <div class="footer-main-right-box">
                     <div class="head">
-                        <img src="assets/img/svg/diger.svg" alt="">
+                        <img src="app/img/svg/diger.svg" alt="">
                         <h4>DİĞER</h4>
                     </div>
                     <ul class="footer-menu">

@@ -10,8 +10,8 @@
         <div class="container">
             <div class="title-page--bg">
                 <div class="title-page--bread">
-                    <a href=""><img src="assets/img/svg/home.svg" alt=""></a>
-                    <img src="assets/img/svg/arrow-right.svg" alt="" class="arrow">
+                    <a href=""><img src="app/img/svg/home.svg" alt=""></a>
+                    <img src="app/img/svg/arrow-right.svg" alt="" class="arrow">
                     <a href=""><span>Bireysel Kurulumlar</span></a>
                 </div>
                 <div class="title-page--title">
@@ -24,7 +24,7 @@
     <section class="main">
         <div class="container">
             <div class="main-bg">
-                <img src="assets/img/Hizmetler.png" alt="">
+                <img src="app/img/Hizmetler.png" alt="">
                 <div class="main-bg--title">
                     <h3>Bireysel Kurulumlar</h3>
                     <p class="main-bg--dic">Eviniz, iş yeriniz, yazlığınız veya dilediğiniz herhangi bir noktaya ev tipi</br> cihazınızın kurulumunu gerçekleştiriyoruz.</p>
@@ -37,7 +37,7 @@
         <div class="container">
             <div class="contact-row-bg">
                 <div class="contact-row-bg-image">
-                    <img src="assets/img/contact.png" alt="">
+                    <img src="app/img/contact.png" alt="">
                 </div>
                 <div class="contact-row-title">
                     <h4>Bizimle İletişime Geçin</h4>

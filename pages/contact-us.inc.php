@@ -10,8 +10,8 @@
         <div class="container">
             <div class="title-page--bg">
                 <div class="title-page--bread">
-                    <a href=""><img src="assets/img/svg/home.svg" alt=""></a>
-                    <img src="assets/img/svg/arrow-right.svg" alt="" class="arrow">
+                    <a href=""><img src="app/img/svg/home.svg" alt=""></a>
+                    <img src="app/img/svg/arrow-right.svg" alt="" class="arrow">
                     <a href=""><span>İletişim</span></a>
                 </div>
                 <div class="title-page--title">
@@ -24,20 +24,20 @@
     <section class="main">
         <div class="container">
             <div class="main-bg">
-                <img src="assets/img/map.png" alt="">
+                <img src="app/img/map.png" alt="">
                 <div class="main-bg--title">
                     <ul class="main__contact_us">
                         <li>
-                            <img src="assets/img/svg/contact-map.svg" alt="">
+                            <img src="app/img/svg/contact-map.svg" alt="">
                             <span>Ömer Avni Mahallesi, İnebolu Sokak, Ekemen İş Hanı, No: 1A 
                                 Kabataş, Beyoğlu / İstanbul, Türkiye</span>
                         </li>
                         <li>
-                            <img src="assets/img/svg/contact-gmail.svg" alt="">
+                            <img src="app/img/svg/contact-gmail.svg" alt="">
                             <span>musteri.hizmetleri@csarj.com</span>
                         </li>
                         <li>
-                            <img src="assets/img/svg/contact-call.svg" alt="">
+                            <img src="app/img/svg/contact-call.svg" alt="">
                             <span>444 2725</span>
                         </li>
                     </ul>
@@ -59,7 +59,7 @@
                             <label for="Cep" class="input-text">Cep Telefonu*</label>
                         </div>
                         <div class="form_contact__box">
-                            <label class="input-select" for="text"><img src="assets/img/svg/arrow bottom .svg" alt=""></label>
+                            <label class="input-select" for="text"><img src="app/img/svg/arrow bottom .svg" alt=""></label>
                             <select id="text">
                                 <option value="volvo">Volvo</option>
                                 <option value="saab">Saab</option>
@@ -78,7 +78,7 @@
                     </form>
                 </div>
                 <div class="contact_form__bg__right">
-                    <img src="assets/img/svg/contact gmail big.svg" alt="">
+                    <img src="app/img/svg/contact gmail big.svg" alt="">
                     <h4>Bize Ulaşın</h4>
                     <p>Merak ettiğiniz tüm detaylar için iletişim formunu doldurabilirsiniz. </p>
                 </div>

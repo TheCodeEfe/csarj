@@ -8,8 +8,8 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-12">
-        <img src="assets/img/slide.png" alt="slide img" class="deskimg">
-        <img src="assets/img/resimg.png" alt="slide img" class="resimg">
+        <img src="app/img/slide.png" alt="slide img" class="deskimg">
+        <img src="app/img/resimg.png" alt="slide img" class="resimg">
       </div>
       <div class="slide__btn">
         <a href="" class="btn">
@@ -103,7 +103,7 @@ Nullam odio nulla, volutpat eu porttitor non, faucibus quis sapien. Sed sit amet
                   <div class="modal-dialog modal-ku modal-dialog-centered">
                     <div class="modal-content">
                       <div class="modal-title text-center">
-                        <img src="assets/img/logotimer.png" alt="">
+                        <img src="app/img/logotimer.png" alt="">
                         <h5 class="title-timer-modal modal-title text-center" id="exampleModalLabel">Telefonunu Doğrula</h5>
                         <p class="p-modal"><b>0539 321 12 32</b>numaralı telefon numarasına gönderilen 4 haneli</br> doğrulama kodunu gir.</p>
                       </div>

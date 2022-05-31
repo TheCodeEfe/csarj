@@ -10,8 +10,8 @@
         <div class="container">
             <div class="title-page--bg">
                 <div class="title-page--bread">
-                    <a href=""><img src="assets/img/svg/home.svg" alt=""></a>
-                    <img src="assets/img/svg/arrow-right.svg" alt="" class="arrow">
+                    <a href=""><img src="app/img/svg/home.svg" alt=""></a>
+                    <img src="app/img/svg/arrow-right.svg" alt="" class="arrow">
                     <a href=""><span>Haberler</span></a>
                 </div>
                 <div class="title-page--title">
@@ -25,7 +25,7 @@
         <div class="container">
             <div class="blog_main">
                 <div class="blog_main__box">
-                    <a href=""><img src="assets/img/blog-1.png" alt=""></a>
+                    <a href=""><img src="app/img/blog-1.png" alt=""></a>
                     <h2>
                         <a href="">Commodo at nisl rhoncus tincidunt</a>
                     </h2>
@@ -33,7 +33,7 @@
                     <button class="btn"><a href="?pg=single-blog"><span>Detaylı Bilgi</span></a></button>
                 </div>
                 <div class="blog_main__box">
-                    <a href=""><img src="assets/img/blog.png" alt=""></a>
+                    <a href=""><img src="app/img/blog.png" alt=""></a>
                     <h2>
                         <a href="">Quisque senectus senectus venenatis viverra feugiat morbi ultrices eu duis. Ipsum a cras tellus massa aliquam, amet </a>
                     </h2>
@@ -41,7 +41,7 @@
                     <button class="btn"><a href="?pg=single-blog"><span>Detaylı Bilgi</span></a></button>
                 </div>
                 <div class="blog_main__box">
-                    <a href=""><img src="assets/img/blog-2.png" alt=""></a>
+                    <a href=""><img src="app/img/blog-2.png" alt=""></a>
                     <h2>
                         <a href="">Etiam et ipsum varius molestie varius.</a>
                     </h2>
@@ -51,7 +51,7 @@
             </div>
             <div class="blog_main">
                 <div class="blog_main__box">
-                    <a href=""><img src="assets/img/blog-1.png" alt=""></a>
+                    <a href=""><img src="app/img/blog-1.png" alt=""></a>
                     <h2>
                         <a href="">Commodo at nisl rhoncus tincidunt</a>
                     </h2>
@@ -59,7 +59,7 @@
                     <button class="btn"><a href="?pg=single-blog"><span>Detaylı Bilgi</span></a></button>
                 </div>
                 <div class="blog_main__box">
-                    <a href=""><img src="assets/img/blog.png" alt=""></a>
+                    <a href=""><img src="app/img/blog.png" alt=""></a>
                     <h2>
                         <a href="">Quisque senectus senectus venenatis viverra feugiat morbi ultrices eu duis. Ipsum a cras tellus massa aliquam, amet </a>
                     </h2>
@@ -67,7 +67,7 @@
                     <button class="btn"><a href="?pg=single-blog"><span>Detaylı Bilgi</span></a></button>
                 </div>
                 <div class="blog_main__box">
-                    <a href=""><img src="assets/img/blog-2.png" alt=""></a>
+                    <a href=""><img src="app/img/blog-2.png" alt=""></a>
                     <h2>
                         <a href="">Etiam et ipsum varius molestie varius.</a>
                     </h2>
@@ -80,11 +80,11 @@
     <section class="page-numbers">
         <div class="container">
             <ul>
-                <li><a href=""><img src="assets/img/svg/arrow-left.svg" alt=""></a></li>
+                <li><a href=""><img src="app/img/svg/arrow-left.svg" alt=""></a></li>
                 <li class="active"><a href=""><span>1</span></a></li>
                 <li><a href=""><span>2</span></a></li>
                 <li><a href=""><span>3</span></a></li>
-                <li><a href=""><img src="assets/img/svg/arrow-right-prymaricolor.svg" alt=""></a></li>
+                <li><a href=""><img src="app/img/svg/arrow-right-prymaricolor.svg" alt=""></a></li>
             </ul>
         </div>
     </section>

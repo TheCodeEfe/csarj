@@ -10,8 +10,8 @@
         <div class="container">
             <div class="title-page--bg">
                 <div class="title-page--bread">
-                    <a href=""><img src="assets/img/svg/home.svg" alt=""></a>
-                    <img src="assets/img/svg/arrow-right.svg" alt="" class="arrow">
+                    <a href=""><img src="app/img/svg/home.svg" alt=""></a>
+                    <img src="app/img/svg/arrow-right.svg" alt="" class="arrow">
                     <a href=""><span>Hizmetlerimiz</span></a>
                 </div>
                 <div class="title-page--title">
@@ -24,7 +24,7 @@
     <section class="main">
         <div class="container">
             <div class="main-bg">
-                <img src="assets/img/Hizmetler.png" alt="">
+                <img src="app/img/Hizmetler.png" alt="">
                 <div class="main-bg--title">
                     <h3>Bireysel Kurulumlar</h3>
                     <p class="main-bg--dic">Eviniz, iş yeriniz, yazlığınız veya dilediğiniz herhangi bir noktaya ev tipi </br>cihazınızın kurulumunu gerçekleştiriyoruz.</p>
@@ -36,7 +36,7 @@
     <section class="main">
         <div class="container">
             <div class="main-bg main-left">
-                <img src="assets/img/Hizmetler-1.png" alt="">
+                <img src="app/img/Hizmetler-1.png" alt="">
                 <div class="main-bg--title main-left--title">
                     <h3>Kurumsal Kurulumlar</h3>
                     <ul>
@@ -58,7 +58,7 @@
     <section class="main">
         <div class="container">
             <div class="main-bg">
-                <img src="assets/img/Hizmetler-2.png" alt="">
+                <img src="app/img/Hizmetler-2.png" alt="">
                 <div class="main-bg--title">
                     <h3>İş Ortaklığı</h3>
                     <ul>
@@ -80,7 +80,7 @@
     <section class="main">
         <div class="container">
             <div class="main-bg main-left">
-                <img src="assets/img/Hizmetler-3.png" alt="">
+                <img src="app/img/Hizmetler-3.png" alt="">
                 <div class="main-bg--title main-left--title">
                     <h3>Filo Anlaşmaları</h3>
                     <p class="main-bg--dic">Araç filolarınız yeni güne enerji dolu başlasın diye fabrikalarınız ve dağıtım depolarınıza, özel filo imkanlarımız sayesinde ücretsiz olarak C-Şarj cihazlarının kurulumunu sağlıyoruz.</p>
@@ -93,7 +93,7 @@
         <div class="container">
             <div class="contact-row-bg">
                 <div class="contact-row-bg-image">
-                    <img src="assets/img/contact.png" alt="">
+                    <img src="app/img/contact.png" alt="">
                 </div>
                 <div class="contact-row-title">
                     <h4>Bizimle İletişime Geçin</h4>
