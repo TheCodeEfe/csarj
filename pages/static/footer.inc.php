@@ -10,16 +10,16 @@
                     Kabataş / Beyoğlu / İstanbul</p>
                 <div class="footer-main-left-social">
                     <ul>
-                        <li><a href=""><img src="app/img/svg/social/facebook.svg" alt=""></a></li>
-                        <li><a href=""><img src="app/img/svg/social/instagram.svg" alt=""></a></li>
-                        <li><a href=""><img src="app/img/svg/social/twitter.svg" alt=""></a></li>
-                        <li><a href=""><img src="app/img/svg/social/youtube.svg" alt=""></a></li>
-                        <li><a href=""><img src="app/img/svg/social/linkedin.svg" alt=""></a></li>
+                        <li><a href="https://facebook.com"><img src="app/img/svg/social/facebook.svg" alt=""></a></li>
+                        <li><a href="https://instagram.com"><img src="app/img/svg/social/instagram.svg" alt=""></a></li>
+                        <li><a href="https://twitter.com"><img src="app/img/svg/social/twitter.svg" alt=""></a></li>
+                        <li><a href="https://youtube.com"><img src="app/img/svg/social/youtube.svg" alt=""></a></li>
+                        <li><a href="https://linkedin.com"><img src="app/img/svg/social/linkedin.svg" alt=""></a></li>
                     </ul>
                 </div>
                 <div class="footer-main-left-phone">
                     <div class="footer-main-left-phone-dic">
-                        <h4><b>444</b>2725</h4>
+                        <h4><b>442</b>7275</h4>
                         <span>CŞARJ</span>
                     </div>
                 </div>
@@ -42,10 +42,10 @@
                         <h4>HİZMETLER</h4>
                     </div>
                     <ul class="footer-menu">
-                        <li><a href=""><span>Bireysel Kurulumlar</span></a></li>
-                        <li><a href=""><span>Kurumsal Kurulumlar</span></a></li>
-                        <li><a href=""><span>Filo Anlaşmaları</span></a></li>
-                        <li><a href=""><span>İş Ortaklığı</span></a></li>
+                        <li><a href="?pg=single-services&title=bireysel-kurulumlar"><span>Bireysel Kurulumlar</span></a></li>
+                        <li><a href="?pg=single-services&title=kurumsal-kurulumlar"><span>Kurumsal Kurulumlar</span></a></li>
+                        <li><a href="?pg=single-services&title=filo-anlasmalari"><span>Filo Anlaşmaları</span></a></li>
+                        <li><a href="?pg=single-services&title=is-ortakligi"><span>İş Ortaklığı</span></a></li>
                     </ul>
                 </div>
                 <div class="footer-main-right-box">
@@ -54,11 +54,11 @@
                         <h4>DİĞER</h4>
                     </div>
                     <ul class="footer-menu">
-                        <li><a href=""><span>Sıkça Sorulan Sorular</span></a></li>
+                        <li><a href="?pg=faq"><span>Sıkça Sorulan Sorular</span></a></li>
                         <li><a href=""><span>İstasyon Haritası</span></a></li>
-                        <li><a href=""><span>Genel Bilgiler</span></a></li>
-                        <li><a href=""><span>Rezervasyon</span></a></li>
-                        <li><a href=""><span>Üyelik</span></a></li>
+                        <li><a href="?pg=info"><span>Genel Bilgiler</span></a></li>
+                        <li><a href="?pg=reservation"><span>Rezervasyon</span></a></li>
+                        <li><a href="?pg=member-detail"><span>Üyelik</span></a></li>
                     </ul>
                 </div>
             </div>
@@ -67,8 +67,8 @@
             <div class="footer-bottom-bg">
                 <span class="copy-rgith">© 2022</span>
                 <ul>
-                    <li><a href=""><span>Gizlilik Politikası</span></a></li>
-                    <li><a href=""><span>Kişisel Verilerin Korunması</span></a></li>
+                    <li><a href="?pg=privacy"><span>Gizlilik Politikası</span></a></li>
+                    <li><a href="?pg=kvkk"><span>Kişisel Verilerin Korunması</span></a></li>
                 </ul>
             </div>
         </div>

@@ -6,93 +6,27 @@
 
 
 
-<section class="index-site">
+<section class="title-page">
         <div class="container">
-            <div class="index-site-box">
-                <img src="app/img/Hero.png" alt="" class="img-fluid">
-                <div class="index-site-box-title">
-                    <h1>Güzel Bir Gelecek İçin!</h1>
-                    <p>Çevreye duyarlı C-Şarj elektrikli araç şarj operatörüyle geleceğimiz güzelleşecek.</p>
-                    <button class="btn"><a href="">Hemen İncele</a></button>
+            <div class="title-page--bg">
+                <div class="title-page--bread">
+                    <a href=""><img src="app/img/svg/home.svg" alt=""></a>
+                    <img src="app/img/svg/arrow-right.svg" alt="" class="arrow">
+                    <a href=""><span>Sıkça Sorulan Sorular</span></a>
+                </div>
+                <div class="title-page--title">
+                    <h1>Sıkça Sorulan Sorular</h1>
+                    <p>C-Şarj hakkında merak ettikleriniz için sıkça sorulan soruları inceleyebilirsiniz.</p>
                 </div>
             </div>
         </div>
     </section>
-    <section class="site-about">
-        <div class="container">
-            <div class="site-about-bg">
-                <div class="site-about-left">
-                    <h2>Enerji Dolu!</h2>
-                    <p>
-                        C-Şarj Türkiye’nin enerji dolu elektrikli araç şarj operatör ağıdır. </br></br>
-                        Misyonumuz, müşterilerimize en hızlı, güvenilir, kaliteli ve ekonomik hizmeti sunmaktır.
-                    </p>
-                </div>
-                <div class="site-about-right">
-                    <img src="app/img/Phone.png" alt="">
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="services">
-        <div class="container">
-            <div class="services-flex">
-                <div class="services-box">
-                    <img src="app/img/services/tree.png" alt="">
-                    <div class="services-box-dic">
-                        <h3>Bireysel Kurulumlar</h3>
-                        <button class="btn"><a href="?pg=single-services&title=bireysel-kurulumlar">Detaylı Bilgi</a></button>
-                    </div>
-                </div>
-                <div class="services-box res-mt-24">
-                    <img src="app/img/services/one.png" alt="">
-                    <div class="services-box-dic">
-                        <h3>Kurumsal Kurulumlar</h3>
-                        <button class="btn"><a href="?pg=single-services&title=kurumsal-kurulumlar">Detaylı Bilgi</a></button>
-                    </div>
-                </div>
-                <div class="services-box mt-24">
-                    <img src="app/img/services/four.png" alt="">
-                    <div class="services-box-dic">
-                        <h3>İş Ortaklığı</h3>
-                        <button class="btn"><a href="?pg=single-services&title=is-ortakligi">Detaylı Bilgi</a></button>
-                    </div>
-                </div>
-                <div class="services-box mt-24">
-                    <img src="app/img/services/two.png" alt="">
-                    <div class="services-box-dic">
-                        <h3>Filo Anlaşmaları</h3>
-                        <button class="btn"><a href="?pg=single-services&title=filo-anlasmalari">Detaylı Bilgi</a></button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="contact-row">
-        <div class="container">
-            <div class="contact-row-bg">
-                <div class="contact-row-bg-image">
-                    <img src="app/img/contact.png" alt="">
-                </div>
-                <div class="contact-row-title">
-                    <h4>Bizimle İletişime Geçin</h4>
-                    <p>Porta gravida neque, pulvinar malesuada tempus</br>massa amet non nunc.</p>
-                    <button class="btn  btn-white"><a href="?pg=contact-us">Şimdi Başvur</a></button>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="questions">
+    <section class="questions faq">
         <div class="container">
             <div class="questions-bg">
-                <div class="left">
-                    <img src="app/img/svg/question.svg" alt="">
-                    <h4>Sıkça Sorulan Sorular</h4>
-                    <p>C-Şarj hakkında sıkça sorulan sorulara <br>buradan ulaşabilirsiniz.</p>
-                    <button class="btn"><a href="?pg=faq"><span>Tümünü Gör</span></a></button>
-                </div>
                 <div class="right">
-                    <div class="questions-item">
+                    
+                <div class="questions-item">
                         <div class="questions-app">
                             <h3>Elektrikli araç nedir?</h3>
                             <img src="app/img/svg/questionapp.svg" alt="">
@@ -100,10 +34,12 @@
                         <div class="questions-content">
                             <p>
                             Elektrikli araçlar sadece elektrik enerjisi ile hareket edebilen veya elektrik enerjisi desteği alan içten yanmalı motorlara sahip olan kara araçlarıdır. Çeşitli kategorilere ayrılır.
-                            EV (Electric Vehicle): Sadece elektrik enerjisi ile tahrik edilen kara araçlarıdır.
-                            MHEV (Mild Hybrid Electric Vehicle): Elektrik enerjisini kendisi üreterek, içten yanmalı motorlara elektrik motoruyla da destek sağlayan kara araçlarıdır.
-                            PHEV (Plug-in Hybrid Electirc Vehicle): Kendi elektrik enerjisini üretmesinin yanı sıra dış enerji kaynaklarına da bağlanarak enerji depolanabilen kara araçlarıdır.
-                            FCEV (Fuel Cell Electric Vehicle): Değiştirilebilir yakıt hücresi kullanarak, elektrik enerjisi ile yol alabilen kara araçlarıdır.
+                            <ul>
+                            <li>EV (Electric Vehicle): Sadece elektrik enerjisi ile tahrik edilen kara ara&ccedil;larıdır.</li>
+                            <li>MHEV (Mild Hybrid Electric Vehicle): Elektrik enerjisini kendisi &uuml;reterek, i&ccedil;ten yanmalı motorlara elektrik motoruyla da destek sağlayan kara ara&ccedil;larıdır.</li>
+                            <li>PHEV (Plug-in Hybrid Electirc Vehicle): Kendi elektrik enerjisini &uuml;retmesinin yanı sıra dış enerji kaynaklarına da bağlanarak enerji depolanabilen kara ara&ccedil;larıdır.</li>
+                            <li>FCEV (Fuel Cell Electric Vehicle): Değiştirilebilir yakıt h&uuml;cresi kullanarak, elektrik enerjisi ile yol alabilen kara ara&ccedil;larıdır.</li>
+                        </ul>
                             </p>
                         </div>
                     </div>
@@ -213,25 +149,6 @@
             </div>
         </div>
     </section>
-    <section class="download-app">
-        <div class="container">
-            <div class="download-app-bg">
-                <div class="download-app-image">
-                    <img src="app/img/C-Şarj App@4x 2.png" alt="">
-                    <div class="qrcode">
-                        <img src="app/img/QR.png" alt="">
-                    </div>
-                </div>
-                <div class="download-app-dic">
-                    <h4>C-Şarj Uygulamasını Hemen İndirin</h4>
-                    <p>C-Şarj Mobil Uygulaması ile siz de geleceğinize iyi gelecek enerji <br>dolu hizmetlerimizle kolayca tanışın.</p>
-                    <div class="download-app-links">
-                        <button class="btn btn-white"><a href=""><img src="app/img/svg/appstore.svg" alt=""><div><span>App Store</span><p>Hemen indir</p></div></a></button>
-                        <button class="btn btn-white"><a href=""><img src="app/img/svg/googleplay.svg" alt=""><div><span>Google Play</span><p>Hemen indir</p></div></a></button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
 
+    
     <? include_once __DIR__."/static/footer.inc.php"; ?>

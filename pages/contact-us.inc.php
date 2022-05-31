@@ -38,7 +38,7 @@
                         </li>
                         <li>
                             <img src="app/img/svg/contact-call.svg" alt="">
-                            <span>444 2725</span>
+                            <span>442 7275</span>
                         </li>
                     </ul>
                 </div>

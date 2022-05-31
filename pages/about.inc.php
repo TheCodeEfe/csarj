@@ -8,7 +8,7 @@
 
 <section class="title-page">
         <div class="container">
-            <div class="title-page--bg">
+            <div class="title-page--bg"> 
                 <div class="title-page--bread">
                     <a href=""><img src="app/img/svg/home.svg" alt=""></a>
                     <img src="app/img/svg/arrow-right.svg" alt="" class="arrow">
@@ -41,28 +41,28 @@
                     <img src="app/img/services/tree.png" alt="">
                     <div class="services-box-dic">
                         <h3>Bireysel Kurulumlar</h3>
-                        <button class="btn"><a href="">Detaylı Bilgi</a></button>
+                        <button class="btn"><a href="?pg=single-services&title=bireysel-kurulumlar">Detaylı Bilgi</a></button>
                     </div>
                 </div>
                 <div class="services-box res-mt-24">
                     <img src="app/img/services/one.png" alt="">
                     <div class="services-box-dic">
                         <h3>Kurumsal Kurulumlar</h3>
-                        <button class="btn"><a href="">Detaylı Bilgi</a></button>
+                        <button class="btn"><a href="?pg=single-services&title=kurumsal-kurulumlar">Detaylı Bilgi</a></button>
                     </div>
                 </div>
                 <div class="services-box mt-24">
                     <img src="app/img/services/four.png" alt="">
                     <div class="services-box-dic">
                         <h3>İş Ortaklığı</h3>
-                        <button class="btn"><a href="">Detaylı Bilgi</a></button>
+                        <button class="btn"><a href="?pg=single-services&title=is-ortakligi">Detaylı Bilgi</a></button>
                     </div>
                 </div>
                 <div class="services-box mt-24">
                     <img src="app/img/services/two.png" alt="">
                     <div class="services-box-dic">
                         <h3>Filo Anlaşmaları</h3>
-                        <button class="btn"><a href="">Detaylı Bilgi</a></button>
+                        <button class="btn"><a href="?pg=single-services&title=filo-anlasmalari">Detaylı Bilgi</a></button>
                     </div>
                 </div>
             </div>
@@ -77,7 +77,7 @@
                 <div class="contact-row-title">
                     <h4>Bizimle İletişime Geçin</h4>
                     <p>Porta gravida neque, pulvinar malesuada tempus</br>massa amet non nunc.</p>
-                    <button class="btn  btn-white"><a href="">Şimdi Başvur</a></button>
+                    <button class="btn  btn-white"><a href="?pg=contact-us">Şimdi Başvur</a></button>
                 </div>
             </div>
         </div>

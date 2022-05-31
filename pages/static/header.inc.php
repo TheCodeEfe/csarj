@@ -3,7 +3,9 @@
         <nav>
             <div class="menu">
                 <div class="menu--logo">
+                    <a href="./">
                     <img src="app/img/svg/Logo.svg" alt="logo">
+                    </a>
                 </div>
                 <div class="menu--btn">
                     <div></div>
@@ -22,11 +24,11 @@
                             <img src="app/img/svg/map.svg" alt="">
                             <span>İSTASYON HARİTASI</span>
                         </a></li>
-                        <li><a href="#">
+                        <li><a href="?pg=reservation">
                             <img src="app/img/svg/note.svg" alt="">
                             <span>REZERVASYON</span>
                         </a></li>
-                        <li><a href="#">
+                        <li><a href="?pg=member-detail">
                             <img src="app/img/svg/user.svg" alt="">
                             <span>ÜYELİK</span>
                         </a></li>

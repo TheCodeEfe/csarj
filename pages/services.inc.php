@@ -21,14 +21,14 @@
             </div>
         </div>
     </section>
-    <section class="main">
+    <section class="main"> 
         <div class="container">
             <div class="main-bg">
                 <img src="app/img/Hizmetler.png" alt="">
                 <div class="main-bg--title">
                     <h3>Bireysel Kurulumlar</h3>
                     <p class="main-bg--dic">Eviniz, iş yeriniz, yazlığınız veya dilediğiniz herhangi bir noktaya ev tipi </br>cihazınızın kurulumunu gerçekleştiriyoruz.</p>
-                    <button class="btn"><a href="?pg=single-services"><span>Hemen İncele</span></a></button>
+                    <button class="btn"><a href="?pg=single-services&title=bireysel-kurulumlar"><span>Hemen İncele</span></a></button>
                 </div>
             </div>
         </div>
@@ -50,7 +50,7 @@
                             <p>Alışveriş Merkezlerinin açık / kapalı otoparklarında şarj cihazı kurulumları </p>
                         </li>
                     </ul>
-                    <button class="btn"><a href="?pg=single-services"><span>Hemen İncele</span></a></button>
+                    <button class="btn"><a href="?pg=single-services&title=kurumsal-kurulumlar"><span>Hemen İncele</span></a></button>
                 </div>
             </div>
         </div>
@@ -72,7 +72,7 @@
                             <p>Özel otoparklarda verilen park, temizlik ve kuaför hizmetlerinin yanı sıra elektrikli araç şarj hizmeti de sunmak için kurulum sağlıyoruz.</p>
                         </li>
                     </ul>
-                    <button class="btn"><a href="?pg=single-services"><span>Hemen İncele</span></a></button>
+                    <button class="btn"><a href="?pg=single-services&title=is-ortakligi"><span>Hemen İncele</span></a></button>
                 </div>
             </div>
         </div>
@@ -84,7 +84,7 @@
                 <div class="main-bg--title main-left--title">
                     <h3>Filo Anlaşmaları</h3>
                     <p class="main-bg--dic">Araç filolarınız yeni güne enerji dolu başlasın diye fabrikalarınız ve dağıtım depolarınıza, özel filo imkanlarımız sayesinde ücretsiz olarak C-Şarj cihazlarının kurulumunu sağlıyoruz.</p>
-                    <button class="btn"><a href="?pg=single-services"><span>Hemen İncele</span></a></button>
+                    <button class="btn"><a href="?pg=single-services&title=filo-anlasmalari"><span>Hemen İncele</span></a></button>
                 </div>
             </div>
         </div>
