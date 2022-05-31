@@ -86,7 +86,7 @@ button {
 /* normal = 400 */
 @font-face {
   font-family: "Avenir Next";
-  src: url("/csarj/app/fonts/AvenirNext-Regular.woff2") format("woff2"), url("/csarj/app/fonts/AvenirNext-Regular.woff") format("woff");
+  src: url("/app/fonts/AvenirNext-Regular.woff2") format("woff2"), url("/app/fonts/AvenirNext-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -94,14 +94,14 @@ button {
 /* medium = 500 */
 @font-face {
   font-family: "Avenir Next";
-  src: url("/csarj/app/fonts/AvenirNext-Medium.woff2") format("woff2"), url("/csarj/app/fonts/AvenirNext-Medium.woff") format("woff");
+  src: url("/app/fonts/AvenirNext-Medium.woff2") format("woff2"), url("/app/fonts/AvenirNext-Medium.woff") format("woff");
   font-weight: 500;
   font-style: normal;
 }
 /* semi bold = 600 */
 @font-face {
   font-family: "Avenir Next";
-  src: url("/csarj/app/fonts/AvenirNext-DemiBold.woff2") format("woff2"), url("/csarj/app/fonts/AvenirNext-DemiBold.woff") format("woff");
+  src: url("/app/fonts/AvenirNext-DemiBold.woff2") format("woff2"), url("/app/fonts/AvenirNext-DemiBold.woff") format("woff");
   font-weight: 600;
   font-style: normal;
   font-display: swap;
@@ -109,7 +109,7 @@ button {
 /* bold = 700 */
 @font-face {
   font-family: "Avenir Next";
-  src: url("/csarj/app/fonts/AvenirNext-Bold.woff2") format("woff2"), url("/csarj/app/fonts/AvenirNext-Bold.woff") format("woff");
+  src: url("/app/fonts/AvenirNext-Bold.woff2") format("woff2"), url("/app/fonts/AvenirNext-Bold.woff") format("woff");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
@@ -150,11 +150,23 @@ a:active {
   font-style: normal;
   font-weight: 600;
   font-size: 15px;
+  transition: background 500ms ease-in-out;
+  -webkit-transition: background 500ms ease-in-out;
+  -moz-transition: background 500ms ease-in-out;
+  -ms-transition: background 500ms ease-in-out;
+  -o-transition: background 500ms ease-in-out;
 }
 .btn a {
   color: #fff;
   font-weight: 600;
   font-size: 15px;
+}
+.btn:hover {
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), #07BEB8;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #07BEB8;
+  -webkit-box-shadow: 0px 8px 16px rgba(7, 190, 184, 0.16);
+          box-shadow: 0px 8px 16px rgba(7, 190, 184, 0.16);
+  border-radius: 56px;
 }
 @media (max-width: 39.9375em) {
   .btn {
@@ -244,7 +256,7 @@ header nav.header-mobile {
     content: " ";
     height: 100%;
     display: block;
-    background: url("/csarj/app/img/svg/arrow.svg");
+    background: url("/app/img/svg/arrow.svg");
     width: 16px;
     right: 0;
     top: 50%;
@@ -304,7 +316,7 @@ header nav.header-mobile {
     padding-bottom: 0px;
   }
   header nav.header-mobile .menu--nav > ul > li.active a::after {
-    background: url("/csarj/app/img/svg/rotedarrow.svg") !important;
+    background: url("/app/img/svg/rotedarrow.svg") !important;
     width: 16px;
     height: 100%;
     right: 0;
@@ -345,7 +357,7 @@ header nav {
         flex-wrap: wrap;
   }
   header nav .menu--btnimg div {
-    background: url("/csarj/app/img/svg/burgerclosemenu.svg") !important;
+    background: url("/app/img/svg/burgerclosemenu.svg") !important;
     background-size: cover !important;
   }
   header nav .menu--btn {
@@ -357,7 +369,7 @@ header nav {
     width: 22px;
     height: 22px;
     background-size: cover;
-    background: url("/csarj/app/img/svg/burgermenu.svg");
+    background: url("/app/img/svg/burgermenu.svg");
     transition: background ease-in-out 300ms;
     -webkit-transition: background ease-in-out 300ms;
     -moz-transition: background ease-in-out 300ms;
@@ -925,6 +937,9 @@ header nav .menu--btn {
   font-size: 18px;
   color: #43464C;
 }
+.questions-app:hover h3 {
+  color: #07BEB8 !important;
+}
 .questions-content {
   display: none;
   background-color: #fff;
@@ -974,6 +989,13 @@ header nav .menu--btn {
     font-weight: 600;
     font-size: 16px;
   }
+}
+
+.faq .right {
+  width: 100%;
+}
+.faq .questions-item {
+  width: 100% !important;
 }
 
 .footer {
@@ -1230,7 +1252,7 @@ header nav .menu--btn {
             flex-direction: column;
   }
   .footer-main-right .active .head::after {
-    background: url("/csarj/app/img/svg/rotedarrow.svg") !important;
+    background: url("/app/img/svg/rotedarrow.svg") !important;
     background-position-x: 0%;
     background-position-y: 0%;
     background-repeat: repeat;
@@ -1273,7 +1295,7 @@ header nav .menu--btn {
     content: " ";
     height: 100%;
     display: block;
-    background: url("/csarj/app/img/svg/arrow.svg");
+    background: url("/app/img/svg/arrow.svg");
     width: 16px;
     right: 0;
     top: 50%;
@@ -1571,6 +1593,9 @@ header nav .menu--btn {
   width: 100%;
   position: relative;
 }
+.main-bg--bread a:hover {
+  color: #07BEB8;
+}
 .main-bg--title {
   background: #fff;
   padding: 64px 48px;
@@ -1595,6 +1620,50 @@ header nav .menu--btn {
   font-size: 16px;
   color: #43464C;
   margin-top: 8px;
+}
+.main-bg--table table {
+  margin-top: 8px;
+  width: 100%;
+}
+.main-bg--table table tbody {
+  display: block;
+  width: 100%;
+  border: 1px solid #DFE1E6 !important;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+.main-bg--table table tbody tr {
+  border-bottom: 1px solid #DFE1E6;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.main-bg--table table tbody tr:nth-last-child(1) {
+  border: none;
+}
+.main-bg--table table tbody tr td {
+  width: 100%;
+  text-align: center;
+  padding: 8px 0px;
+  border-left: 1px solid #DFE1E6;
+}
+.main-bg--table table tbody tr td:nth-child(1) {
+  border: none;
+}
+.main-bg--table table tbody tr td span {
+  font-weight: 500;
+  font-size: 16px;
+  color: #43464C;
+}
+.main-bg ul {
+  margin-left: 16px;
 }
 .main-left {
   -webkit-box-orient: horizontal;
@@ -2207,4 +2276,162 @@ header nav .menu--btn {
 
 .main-bg--title button {
   margin-top: 24px;
+}
+
+.reservation {
+  margin-top: 40px;
+}
+.reservation-bg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.reservation-bg__box {
+  background: #fff;
+  border-radius: 16px;
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  -ms-border-radius: 16px;
+  -o-border-radius: 16px;
+  padding: 16px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+.reservation-bg__box:nth-child(1) {
+  margin-right: 24px;
+}
+.reservation-bg__box__img {
+  background: #F2F5F8;
+  border-radius: 8px;
+  padding: 35px;
+}
+.reservation-bg__box__img img {
+  width: auto !important;
+  margin: 0 auto;
+}
+.reservation-bg__box__title {
+  margin-left: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.reservation-bg__box__title-span {
+  font-weight: 600;
+  font-size: 24px;
+  color: #0077B6;
+}
+.reservation-bg__box__title button {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.reservation-bg__box__title button a span {
+  color: white !important;
+}
+@media (max-width: 39.9375em) {
+  .reservation-bg {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .reservation-bg__box {
+    margin-top: 16px;
+  }
+  .reservation-bg__box:nth-child(1) {
+    margin-top: 0px !important;
+    margin-right: 0px;
+  }
+  .reservation-bg__box__img {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 18px;
+  }
+  .reservation-bg__box__img img {
+    width: 37px;
+    height: 37px;
+  }
+  .reservation-bg__box__title-span {
+    font-weight: 600;
+    margin-bottom: 8px;
+    font-size: 18px;
+  }
+}
+
+.privacy {
+  margin-top: 40px;
+}
+.privacy p {
+  font-weight: 500;
+  font-size: 16px;
+  color: #43464C;
+  margin-bottom: 24px;
+}
+.privacy h2 {
+  font-weight: 700;
+  font-size: 16px;
+  color: #43464C;
+}
+.privacy h2 + p {
+  margin-top: 8px;
+}
+
+.not-found {
+  margin-top: 40px;
+  text-align: center;
+}
+.not-found h2 {
+  font-weight: 600;
+  font-size: 37.9px;
+  text-align: center;
+  background: linear-gradient(268.55deg, #0077B6 -2.59%, #07BEB8 104.12%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.not-found p {
+  text-align: center;
+  font-weight: 400;
+  font-size: 18px;
+  color: #0077B6;
+}
+.not-found img {
+  width: auto !important;
+  margin-top: 24px !important;
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 24px !important;
+}
+@media (max-width: 39.9375em) {
+  .not-found h2 {
+    font-size: 32px;
+  }
+  .not-found p {
+    font-size: 14px;
+  }
+  .not-found img {
+    max-width: 100%;
+  }
+  .not-found button {
+    width: 100%;
+  }
 }

@@ -1,0 +1,80 @@
+@use "../util" as *;
+.reservation{
+    margin-top: 40px;
+    &-bg{
+        display: flex;
+        &__box{
+            background: #fff;
+            border-radius: 16px;
+            -webkit-border-radius: 16px;
+            -moz-border-radius: 16px;
+            -ms-border-radius: 16px;
+            -o-border-radius: 16px;
+            padding: 16px;
+            width: 100%;
+            &:nth-child(1){
+                margin-right: 24px;
+            }
+            display: flex;
+            flex-direction: row;
+            &__img{
+                background: #F2F5F8;
+                border-radius: 8px;
+                padding: 35px;
+                img{
+                    width: auto !important;
+                    margin: 0 auto;
+                }
+            }
+            &__title{
+                margin-left: 24px;
+                display: flex;
+                justify-content: space-around;
+                flex-direction: column;
+                &-span{
+                    font-weight: 600;
+                    font-size: 24px;
+                    color: #0077B6;
+                }
+                button{
+                    width: fit-content;
+                    a{
+                        span{
+                            color: #ffff !important;
+                        }
+                    }
+                }
+
+            }
+        }
+    }
+    @include breakpoint-down(small) {
+        &-bg{
+            flex-direction: column;
+            &__box{
+                margin-top: 16px;
+                &:nth-child(1){
+                    margin-top: 0px !important;
+                    margin-right: 0px;
+                }
+                &__img{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 18px;
+                    img{
+                        width: 37px;
+                        height: 37px;
+                    }
+                }
+                &__title{
+                    &-span{
+                        font-weight: 600;
+                        margin-bottom: 8px;
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+    }
+}

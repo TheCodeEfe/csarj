@@ -1,0 +1,19 @@
+.not-found {
+  margin-top: 40px;
+  text-align: center;
+}
+.not-found h2 {
+  font-weight: 600;
+  font-size: 37.9px;
+  text-align: center;
+  background: linear-gradient(268.55deg, #0077B6 -2.59%, #07BEB8 104.12%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.not-found p {
+  text-align: center;
+  font-weight: 400;
+  font-size: 18px;
+  color: #0077B6;
+}
