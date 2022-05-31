@@ -1,0 +1,5 @@
+.questions .left img {
+  width: -webkit-fit-content !important;
+  width: -moz-fit-content !important;
+  width: fit-content !important;
+}

@@ -1,0 +1,86 @@
+@use "../util" as *;
+.site-about{
+    position: relative;
+    &::after{
+        position: absolute;
+        content: '';
+        width: 570px;
+        height: 570px;
+        background: url("../img/svg/Stamp.svg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position:center;
+        background-attachment: fixed;
+        top: 0;
+        left: 50%;
+        transform: translate(-50%, -10%);
+        z-index: -1;
+        -webkit-transform: translate(-50%, -10%);
+        -moz-transform: translate(-50%, -10%);
+        -ms-transform: translate(-50%, -10%);
+        -o-transform: translate(-50%, -10%);
+    }
+    img{
+        width: fit-content;
+    }
+    &-bg{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    &-left{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        h2{
+            font-weight: 700;
+            font-size: 67.34px;
+            background: linear-gradient(268.55deg, #0077B6 -2.59%, #07BEB8 104.12%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        p{
+            font-weight: 400;
+            font-size: 21.33px;
+            color: #43464C;
+            margin-top: 16px;
+        }
+    }
+    &-right{
+        img{
+            width: 282px;
+            margin-top: -164px;
+        }
+    }
+    @include breakpoint-down(small) {
+        margin-top: 40px;
+        &::after{
+            display: none;
+        }
+        &-bg{
+            display: flex;
+            flex-direction: column-reverse;
+        }
+        &-left{
+            align-items: center;
+            margin-top: 16px;
+            h2{
+                font-weight: 700;
+                font-size: 32px;
+            }
+            p{
+                font-weight: 400;
+                font-size: 16px;
+                text-align: center;
+            }
+        }
+        &-right{
+            text-align: center;
+            img{
+                margin-top: 0;
+                width: 165px;
+            }
+        }
+    }
+}

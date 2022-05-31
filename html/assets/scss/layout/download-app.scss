@@ -1,0 +1,134 @@
+@use "../util" as *;
+.download-app{
+    margin-top: 40px;
+    &-bg{
+        width: 100%;
+        background: linear-gradient(268.55deg, #07BEB8 -2.59%, #50DCD6 104.12%);
+        border-radius: 16px;
+        -webkit-border-radius: 16px;
+        -moz-border-radius: 16px;
+        -ms-border-radius: 16px;
+        -o-border-radius: 16px;
+        display: inline-flex;
+        flex-direction: row;
+        position: relative;
+        padding: 23px  44px;
+        align-items: center;
+    }
+    &-image{
+        width: 486px;
+        .qrcode{
+            position: absolute;
+            left: 24px;
+            bottom: 24px;
+            width: 112px;
+            height: 112px;
+            background: #FFFFFF;
+            box-shadow: 0px 16px 32px rgba(0, 0, 0, 0.08);
+            border-radius: 8px;
+            padding: 8px;
+        }
+    }
+    &-dic{
+        margin-left: 82px;
+        h4{
+            font-weight: 600;
+            font-size: 24px;
+            color: #fff;           
+        }
+        p{
+            margin-top: 8px;
+            margin-bottom: 24px;
+            font-weight: 500;
+            font-size: 16px;
+            color: #FFFFFF;
+            opacity: 0.8;
+        }
+    }
+    &-links{
+        button{
+            margin-right: 16px;
+            padding: 8px 33px;
+            &:nth-last-child(1){
+                margin-right: 0;
+            }
+        }
+        a{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            div{
+                display: flex;
+                flex-direction: column;
+                text-align: start;
+                p{
+                    color: #0077B6;
+                    margin: 0;
+                    padding: 0;
+                    font-size: 10px;
+                    font-weight: 600;
+                }
+            }
+        }
+        img{
+            width: fit-content;
+            margin-right: 10px;
+        }
+    }
+    @include breakpoint-down(small) {
+        &-bg{
+            padding: 16px;
+            flex-direction: column;
+        }
+        &-image{
+            width: 311px;
+            .qrcode{
+                display: none;
+            }
+        }
+        &-dic{
+            margin-left: 0px;
+            text-align: center;
+            h4{
+                font-weight: 600;
+                font-size: 24px;
+            }
+            p{
+                font-weight: 500;
+                font-size: 16px;
+                margin-bottom: 16px;
+            }
+
+        }
+        &-links{
+            display: flex;
+            justify-content: space-between;
+            button{
+                padding: 8px 20px;
+                margin-right: 16px;
+                &:nth-last-child(1){
+                    margin-right: 0;
+                }
+            }
+            a{
+                div{
+                    display: flex;
+                    flex-direction: column;
+                    span{
+                        font-weight: 600;
+                        font-size: 15px;
+                    }
+                    p{
+                        font-weight: 600;
+                        font-size: 10px;
+                        text-align: start;
+                        margin: 0;
+                    }
+                }
+            }
+            img{
+                margin-right: 8px;
+            }
+        }
+    }
+}

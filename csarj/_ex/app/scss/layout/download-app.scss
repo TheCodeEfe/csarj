@@ -1,0 +1,64 @@
+.download-app{
+    margin-top: 40px;
+    &-bg{
+        width: 100%;
+        background: linear-gradient(268.55deg, #07BEB8 -2.59%, #50DCD6 104.12%);
+        border-radius: 16px;
+        -webkit-border-radius: 16px;
+        -moz-border-radius: 16px;
+        -ms-border-radius: 16px;
+        -o-border-radius: 16px;
+        display: inline-flex;
+        flex-direction: row;
+        position: relative;
+        padding: 23px  44px;
+        align-items: center;
+    }
+    &-image{
+        width: 486px;
+        .qrcode{
+            position: absolute;
+            left: 24px;
+            bottom: 24px;
+            width: 112px;
+            height: 112px;
+            background: #FFFFFF;
+            box-shadow: 0px 16px 32px rgba(0, 0, 0, 0.08);
+            border-radius: 8px;
+            padding: 8px;
+        }
+    }
+    &-dic{
+        margin-left: 82px;
+        h4{
+            font-weight: 600;
+            font-size: 24px;
+            color: #fff;           
+        }
+        p{
+            margin-top: 8px;
+            margin-bottom: 24px;
+            font-weight: 500;
+            font-size: 16px;
+            color: #FFFFFF;
+            opacity: 0.8;
+        }
+    }
+    &-links{
+        button{
+            margin-right: 16px;
+            &:nth-last-child(1){
+                margin-right: 0;
+            }
+        }
+        a{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        img{
+            width: fit-content;
+            margin-right: 10px;
+        }
+    }
+}

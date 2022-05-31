@@ -1,0 +1,54 @@
+@use "../util" as *;
+@use "colors";
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+ul,
+li,
+p {
+  margin: 0;
+  padding: 0;
+}
+body {
+  overflow-x: hidden;
+  margin: 0;
+  font-style: normal;
+  padding: 0;
+  height: 100vh;
+  font-family: var(--font-inter) !important;
+  background: #F2F5F8;
+}
+
+.container {
+  width: 100%;
+  margin: auto;
+  @include clear;
+  @include breakpoint(medium) {
+    max-width: 1200px;
+    // background-color: rgb(0, 26, 255);
+  }
+  @include breakpoint(large) {
+    max-width: 1200px;
+    //background-color: orange;
+  }
+  @include breakpoint-down(small) {
+    max-width: 540px;
+    //background-color: palegreen;
+  }
+}
+img{
+  width: 100%;
+}
+.mt-24{
+  margin-top: 24px;
+}
+button{
+  cursor: pointer;
+}

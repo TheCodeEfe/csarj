@@ -1,0 +1,59 @@
+@use "../util" as *;
+.contact-row{
+    margin-top: 40px;
+    &-bg{
+        display: flex;
+        flex-direction: row-reverse;
+        border-radius: 16px;
+        -webkit-border-radius: 16px;
+        -moz-border-radius: 16px;
+        -ms-border-radius: 16px;
+        position: relative;
+        justify-content: flex-end;
+        overflow: hidden;
+        -o-border-radius: 16px;
+        background: linear-gradient(268.55deg, #0077B6 -2.59%, #1E4584 104.12%);
+        align-items: center;
+        &-image{
+            position: absolute;
+            right: 0;
+            img{
+                max-width: 810px;
+            }
+        }
+    }
+    &-title{
+        padding: 88px 102px;
+        h4{
+            font-weight: 600;
+            font-size: 24px;
+            color: #fff;
+        }
+        p{
+            font-weight: 500;
+            font-size: 16px;
+            opacity: 0.8;
+            color: #fff;
+            margin-top: 8px;
+            margin-bottom: 24px;
+        }
+    }
+    @include breakpoint-down(small) {
+     &-bg{
+         &-image{
+             top: 32px;
+             img{
+                 max-width: 343px;
+             }
+         }
+     }
+     &-title{
+         padding: 16px;
+         margin-top: 178px;
+         text-align: center;
+         button{
+             width: 100%;
+         }
+     } 
+    }
+}

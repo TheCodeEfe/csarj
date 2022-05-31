@@ -1,0 +1,37 @@
+.index-site{
+    margin-top: 40px;
+    &-box{
+        overflow: hidden;
+        background-color: #FFF;
+        border-radius: 16px;
+        -webkit-border-radius: 16px;
+        -moz-border-radius: 16px;
+        -ms-border-radius: 16px;
+        -o-border-radius: 16px;
+        &-title{
+            width: 495px;
+            margin: 0 auto;
+            text-align: center;
+            padding-bottom: 32px;
+            h1{
+                background: linear-gradient(268.55deg, #0077B6 -2.59%, #07BEB8 104.12%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                text-fill-color: transparent;
+                font-weight: 700;
+                font-size: 67.34px;
+            }
+            p{
+                font-weight: 400;
+                font-size: 21.33px;
+                color: #43464C;
+                text-align: center;
+                margin-bottom: 32px;
+                margin-top: 16px;
+            }
+            button{
+
+            }
+        }
+    }
+}

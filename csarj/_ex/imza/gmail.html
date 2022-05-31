@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:v="urn:schemas-microsoft-com:vml">
+<head>
+<title></title>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<!--[if mso]><xml><o:OfficeDocumentSettings><o:PixelsPerInch>96</o:PixelsPerInch><o:AllowPNG/></o:OfficeDocumentSettings></xml><![endif]-->
+<script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
+
+<script>
+	function copytable() {
+		var range = document.createRange();
+                    range.selectNode(document.getElementById("mailSign"));
+                    window.getSelection().removeAllRanges(); // clear current selection
+                    window.getSelection().addRange(range); // to select text
+                    document.execCommand("copy");
+                    window.getSelection().removeAllRanges();// to desele
+
+    
+	alert("Kopyalandı");
+}
+$(function(){
+	$(".copy").change(function (){
+		$("#"+this.id+"s").html(this.value);
+     	//console.log(this.value+this.id);
+	});
+	$(".delphone").click(function(){
+       $("#phonearea").toggle();
+	});
+
+	$(".copy-btn").click(function() {
+		copytable();
+});
+});
+
+</script>
+<style>
+		* {
+			box-sizing: border-box;
+		}
+
+		body {
+			margin: 0;
+			padding: 0;
+		}
+
+		a[x-apple-data-detectors] {
+			color: inherit !important;
+			text-decoration: inherit !important;
+		}
+
+		#MessageViewBody a {
+			color: inherit;
+			text-decoration: none;
+		}
+
+		p {
+			line-height: inherit
+		}
+        .column:nth-last-child(1){
+            margin-left: 16px;
+        }
+		@media (max-width:520px) {
+			.icons-inner {
+				text-align: center;
+			}
+
+			.icons-inner td {
+				margin: 0 auto;
+			}
+
+			.row-content {
+				width: 100% !important;
+			}
+            .stack{
+                flex-direction: column;
+            }
+			.stack .column {
+				width: 100%;
+				display: block;
+                
+			}
+            .column:nth-last-child(1){
+                margin-top: 16px;
+                margin-left: 0;
+            }
+		}
+	</style>
+</head>
+<body style="background-color: #FFFFFF; margin: 0; padding: 0; -webkit-text-size-adjust: none; text-size-adjust: none;">
+
+	<table border="0" id="mailSign" cellpadding="0" cellspacing="0" class="nl-container" role="presentation" style="font-family: 'Arial';mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #FFFFFF;" width="100%">
+        <tr class="stack" style="display:flex">
+            <td class="column" style="width:148px; display: block;">
+                <table border="0" id="mailSign" cellpadding="0" cellspacing="0" class="nl-container" role="presentation" >
+                    <tr>
+                        <td>
+                            <h1 style="margin:0; color: #0A2463; font-size: 16px; font-weight: 700;">M. Melike Aydın</h1>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="padding-top: 8px; padding-bottom: 24px;">
+                            <p style="color: #3E92CC; font-size:12px; font-weight:400; margin:0;">Satış & Pazarlama Direktör</p>
+                            <p style="color: #3E92CC; font-size:12px; font-weight:400; margin:0;">Sales & Marketing Director</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div style=""><a href="https://www.uahero.ai/" target="_blank" style="text-decoration: none; display: block;"><img src="https://www.smtrgroup.com/wp-content/uploads/2022/04/lb-logo.svg" style="display: block;height: auto;border: 0;width: 90px;max-width: 100%;" width="100"></a></div>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+            <td class="column" style="width:293px; display: block;">
+                <table border="0" id="mailSign" cellpadding="0" cellspacing="0" class="nl-container" role="presentation" >
+                    <tr>
+                        <td>
+                            <a href="" style="text-decoration: none; display: flex; align-items: center;">
+                                <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 28" style="margin-right: 8px;">
+                                <path fill="#3E92CC" d="M22 19.375c0 0.562-0.25 1.656-0.484 2.172-0.328 0.766-1.203 1.266-1.906 1.656-0.922 0.5-1.859 0.797-2.906 0.797-1.453 0-2.766-0.594-4.094-1.078-0.953-0.344-1.875-0.766-2.734-1.297-2.656-1.641-5.859-4.844-7.5-7.5-0.531-0.859-0.953-1.781-1.297-2.734-0.484-1.328-1.078-2.641-1.078-4.094 0-1.047 0.297-1.984 0.797-2.906 0.391-0.703 0.891-1.578 1.656-1.906 0.516-0.234 1.609-0.484 2.172-0.484 0.109 0 0.219 0 0.328 0.047 0.328 0.109 0.672 0.875 0.828 1.188 0.5 0.891 0.984 1.797 1.5 2.672 0.25 0.406 0.719 0.906 0.719 1.391 0 0.953-2.828 2.344-2.828 3.187 0 0.422 0.391 0.969 0.609 1.344 1.578 2.844 3.547 4.813 6.391 6.391 0.375 0.219 0.922 0.609 1.344 0.609 0.844 0 2.234-2.828 3.187-2.828 0.484 0 0.984 0.469 1.391 0.719 0.875 0.516 1.781 1 2.672 1.5 0.313 0.156 1.078 0.5 1.188 0.828 0.047 0.109 0.047 0.219 0.047 0.328z"></path>
+                                </svg>
+                                <p style="margin:0; font-size: 10px; font-weight: 400; color: #52616B;">+90 (216) 540 60 30</p>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="padding-top: 8px;">
+                            <a href="" style="text-decoration: none; display: flex; align-items: center;">
+                                <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15 28" style="margin-right: 8px;">
+                                    <path fill="#3E92CC" fill-rule="evenodd" clip-rule="evenodd" d="M7.43363 19.6082L7.43614 19.6099L8 20L8.56334 19.6103L8 18.7719C8.56334 19.6103 8.56454 19.6094 8.56454 19.6094L8.56637 19.6082L8.57196 19.6043L8.59059 19.5912C8.60628 19.5801 8.62844 19.5644 8.65663 19.5441C8.71301 19.5036 8.79359 19.4449 8.89492 19.369C9.09746 19.2171 9.38349 18.9961 9.72523 18.7137C10.4072 18.1502 11.3188 17.3359 12.2336 16.3338C14.0251 14.3714 16 11.5034 16 8.279C16 6.09054 15.1625 3.98725 13.6648 2.43297C12.1663 0.87792 10.1291 0 8 0C5.87092 0 3.83372 0.87792 2.33525 2.43297C0.837521 3.98725 0 6.09054 0 8.279C0 11.5034 1.97493 14.3714 3.76638 16.3338C4.68123 17.3359 5.59284 18.1502 6.27477 18.7137C6.61651 18.9961 6.90254 19.2171 7.10508 19.369C7.20641 19.4449 7.28699 19.5036 7.34337 19.5441C7.37156 19.5644 7.39372 19.5801 7.40941 19.5912L7.42804 19.6043L7.43363 19.6082ZM6.66667 8.15907C6.66667 7.3721 7.28469 6.77271 8 6.77271C8.71531 6.77271 9.33333 7.3721 9.33333 8.15907C9.33333 8.94604 8.71531 9.54543 8 9.54543C7.28469 9.54543 6.66667 8.94604 6.66667 8.15907ZM8 4.77271C6.13799 4.77271 4.66667 6.31014 4.66667 8.15907C4.66667 10.008 6.13799 11.5454 8 11.5454C9.86202 11.5454 11.3333 10.008 11.3333 8.15907C11.3333 6.31014 9.86202 4.77271 8 4.77271Z"/>
+                                </svg>
+                                <p style="margin:0; font-size: 10px; font-weight: 400; color: #52616B;"><span style="color: #3E92CC;">Office</span> Esenkent Mah. Buyruk Sok. No:19/2 Ümraniye/İstanbul</p>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="padding-top: 8px;">
+                            <a href="" style="text-decoration: none; display: flex; align-items: center; ">
+                                <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15 28" style="margin-right: 8px;">
+                                    <path fill="#3E92CC" fill-rule="evenodd" clip-rule="evenodd" d="M7.43363 19.6082L7.43614 19.6099L8 20L8.56334 19.6103L8 18.7719C8.56334 19.6103 8.56454 19.6094 8.56454 19.6094L8.56637 19.6082L8.57196 19.6043L8.59059 19.5912C8.60628 19.5801 8.62844 19.5644 8.65663 19.5441C8.71301 19.5036 8.79359 19.4449 8.89492 19.369C9.09746 19.2171 9.38349 18.9961 9.72523 18.7137C10.4072 18.1502 11.3188 17.3359 12.2336 16.3338C14.0251 14.3714 16 11.5034 16 8.279C16 6.09054 15.1625 3.98725 13.6648 2.43297C12.1663 0.87792 10.1291 0 8 0C5.87092 0 3.83372 0.87792 2.33525 2.43297C0.837521 3.98725 0 6.09054 0 8.279C0 11.5034 1.97493 14.3714 3.76638 16.3338C4.68123 17.3359 5.59284 18.1502 6.27477 18.7137C6.61651 18.9961 6.90254 19.2171 7.10508 19.369C7.20641 19.4449 7.28699 19.5036 7.34337 19.5441C7.37156 19.5644 7.39372 19.5801 7.40941 19.5912L7.42804 19.6043L7.43363 19.6082ZM6.66667 8.15907C6.66667 7.3721 7.28469 6.77271 8 6.77271C8.71531 6.77271 9.33333 7.3721 9.33333 8.15907C9.33333 8.94604 8.71531 9.54543 8 9.54543C7.28469 9.54543 6.66667 8.94604 6.66667 8.15907ZM8 4.77271C6.13799 4.77271 4.66667 6.31014 4.66667 8.15907C4.66667 10.008 6.13799 11.5454 8 11.5454C9.86202 11.5454 11.3333 10.008 11.3333 8.15907C11.3333 6.31014 9.86202 4.77271 8 4.77271Z"/>
+                                </svg>
+                                <p style="margin:0; font-size: 10px; font-weight: 400; color: #52616B;"><span style="color: #3E92CC;">Factory</span> D-100 Karayolu Üzeri Topçular Boyacı Mevkii Çilimli/Düzce</p>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="padding-top: 16px;">
+                        <table align="left" border="0" cellpadding="0" cellspacing="0" class="social-table" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="130">
+                        <tbody><tr>
+                        <td style="padding:0 10px 0 0;"><a href="https://www.linkedin.com/company/uahero-ai/" target="_blank" style="background: #0A2463; display: flex; justify-content: center; align-items: center; width: 16px; height: 16px; ">
+                            <svg width="6.86" height="6.86" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15 28">
+                                <path fill="#fff" d="M14.984 0.187v4.125h-2.453c-1.922 0-2.281 0.922-2.281 2.25v2.953h4.578l-0.609 4.625h-3.969v11.859h-4.781v-11.859h-3.984v-4.625h3.984v-3.406c0-3.953 2.422-6.109 5.953-6.109 1.687 0 3.141 0.125 3.563 0.187z"></path>
+                            </svg>
+                        </a></td>
+                        <td style="padding:0 10px 0 0;"><a href="https://instagram.com/uahero.ai" target="_blank" style="background: #0A2463; display: flex; justify-content: center; align-items: center; width: 16px; height: 16px;">
+                            <svg width="6" height="6" viewBox="0 0 6 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M5.85712 1.57145C5.85712 0.782477 5.21753 0.142883 4.42855 0.142883H2.99998H1.57141C0.782431 0.142883 0.142838 0.782477 0.142838 1.57145V4.4286C0.142838 5.21758 0.782431 5.85717 1.57141 5.85717H4.42855C5.21753 5.85717 5.85712 5.21758 5.85712 4.4286V1.57145ZM3.14853 2.06915C2.95533 2.0405 2.75802 2.0735 2.58466 2.16346C2.41129 2.25341 2.27071 2.39574 2.1829 2.5702C2.09509 2.74466 2.06452 2.94237 2.09555 3.1352C2.12658 3.32803 2.21762 3.50617 2.35573 3.64428C2.49384 3.78239 2.67197 3.87343 2.86481 3.90446C3.05764 3.93549 3.25534 3.90492 3.4298 3.81711C3.60426 3.7293 3.74659 3.58872 3.83655 3.41535C3.92651 3.24199 3.95951 3.04467 3.93086 2.85147C3.90163 2.6544 3.8098 2.47196 3.66893 2.33108C3.52805 2.19021 3.34561 2.09838 3.14853 2.06915ZM2.38727 1.78305C2.64065 1.65158 2.92903 1.60335 3.2114 1.64522C3.49943 1.68793 3.76608 1.82214 3.97197 2.02804C4.17787 2.23393 4.31208 2.50058 4.35479 2.78861C4.39666 3.07098 4.34843 3.35936 4.21696 3.61274C4.08549 3.86612 3.87747 4.07159 3.62249 4.19993C3.36751 4.32827 3.07855 4.37294 2.79672 4.32759C2.51489 4.28224 2.25453 4.14917 2.05268 3.94733C1.85083 3.74548 1.71777 3.48512 1.67242 3.20329C1.62707 2.92146 1.67174 2.6325 1.80008 2.37752C1.92842 2.12254 2.13389 1.91452 2.38727 1.78305ZM4.71144 1.00003C4.5552 1.00003 4.42855 1.12794 4.42855 1.28574C4.42855 1.44354 4.5552 1.57145 4.71144 1.57145H4.7171C4.87333 1.57145 4.99998 1.44354 4.99998 1.28574C4.99998 1.12794 4.87333 1.00003 4.7171 1.00003H4.71144Z" fill="white"/>
+                            </svg>                                                    
+                        </a></td>
+                        <td style="padding:0 10px 0 0;"><a href="https://twitter.com/uahero_ai" target="_blank" style="background: #0A2463; display: flex; justify-content: center; align-items: center; width: 16px; height: 16px;">
+                            <svg width="8" height="6" viewBox="0 0 8 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M6.24569 0.865736C6.56629 0.769196 6.86923 0.621587 7.14283 0.428593C7.04592 0.826511 6.84015 1.18959 6.54854 1.47716C6.56349 1.55533 6.57114 1.63472 6.5714 1.71431C6.5714 5.00002 3.42854 6.42859 0.857117 5.00002C1.56773 5.02829 2.2687 4.82801 2.85712 4.42859C0.285688 3.28574 1.42855 0.714308 1.42855 0.714308C1.71721 1.12535 2.10304 1.45862 2.55169 1.68444C3.00034 1.91025 3.49787 2.02161 3.99997 2.00859V1.72288C3.99646 1.46069 4.07355 1.20375 4.22083 0.986798C4.3681 0.769851 4.57845 0.603368 4.82343 0.509866C5.0684 0.416363 5.33618 0.400353 5.59055 0.464001C5.84493 0.527648 6.07361 0.667882 6.24569 0.865736Z" fill="white"/>
+                                </svg>
+                                
+                        </a></td>
+                        <td style="padding:0 10px 0 0;"><a href="https://www.youtube.com/channel/UCC_IAylitwuCJ2JXljFV5Vg" target="_blank" style="background: #0A2463; display: flex; justify-content: center; align-items: center; width: 16px; height: 16px;">
+                            <svg width="8" height="6" viewBox="0 0 8 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M7.01135 1.40572C6.97741 1.27013 6.90829 1.14589 6.81097 1.04555C6.71364 0.94522 6.59157 0.872347 6.45707 0.834294C5.96564 0.714294 3.99992 0.714294 3.99992 0.714294C3.99992 0.714294 2.03421 0.714294 1.54278 0.845723C1.40828 0.883776 1.2862 0.956649 1.18888 1.05698C1.09156 1.15731 1.02243 1.28155 0.988495 1.41715C0.898556 1.91588 0.854562 2.42181 0.857066 2.92858C0.85386 3.43916 0.897857 3.94895 0.988495 4.45144C1.02591 4.58282 1.09658 4.70234 1.19368 4.79843C1.29078 4.89453 1.41102 4.96395 1.54278 5.00001C2.03421 5.13144 3.99992 5.13144 3.99992 5.13144C3.99992 5.13144 5.96564 5.13144 6.45707 5.00001C6.59157 4.96196 6.71364 4.88908 6.81097 4.78875C6.90829 4.68842 6.97741 4.56418 7.01135 4.42858C7.1006 3.93361 7.14459 3.43153 7.14278 2.92858C7.14599 2.418 7.10199 1.90821 7.01135 1.40572ZM3.35708 3.86285L4.99993 2.92857L3.35708 1.99428V3.86285Z" fill="white"/>
+                                </svg>                                                        
+                        </a></td>
+                        <td style="padding:0 10px 0 0;"><a href="https://www.youtube.com/channel/UCC_IAylitwuCJ2JXljFV5Vg" target="_blank" style="background: #0A2463; display: flex; justify-content: center; align-items: center; width: 16px; height: 16px;">
+                            <svg width="6" height="6" viewBox="0 0 6 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M1.28571 0.714312C1.28571 1.0299 1.02987 1.28574 0.714281 1.28574C0.39869 1.28574 0.142853 1.0299 0.142853 0.714312C0.142853 0.398721 0.39869 0.142883 0.714281 0.142883C1.02987 0.142883 1.28571 0.398721 1.28571 0.714312ZM5.355 2.35927C5.03351 2.03778 4.59748 1.85717 4.14282 1.85717C3.68816 1.85717 3.25213 2.03778 2.93063 2.35927C2.60914 2.68076 2.42853 3.1168 2.42853 3.57145V5.57145H3.57139V3.57145C3.57139 3.4199 3.63159 3.27456 3.73876 3.16739C3.84592 3.06023 3.99127 3.00003 4.14282 3.00003C4.29437 3.00003 4.43972 3.06023 4.54688 3.16739C4.65404 3.27456 4.71425 3.4199 4.71425 3.57145V5.57145H5.8571V3.57145C5.8571 3.1168 5.67649 2.68076 5.355 2.35927ZM1.28571 5.57146V2.14289H0.142853V5.57146H1.28571Z" fill="white"/>
+                                </svg>
+                                                                                     
+                        </a></td>
+                        </tr>
+                        </tbody></table>
+                        </td>
+                        </tr>
+                </table>
+            </td>
+        </tr>
+	</table>
+
+
+
+</body>
+</html>

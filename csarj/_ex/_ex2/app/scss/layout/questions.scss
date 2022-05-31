@@ -1,0 +1,82 @@
+.questions{
+    margin-top: 40px;
+    &-bg{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .left{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        img{
+            width: fit-content !important;
+        }
+        h4{
+            background: linear-gradient(268.55deg, #0077B6 -2.59%, #07BEB8 104.12%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            text-fill-color: transparent;
+            font-weight: 600;
+            font-size: 37.9px;
+            margin-top: 20px;
+        }
+        p{
+            font-weight: 400;
+            font-size: 21.33px;
+            color: #43464C;
+            margin-top: 16px;
+            margin-bottom: 32px;
+        }
+    }
+    &-item{
+        width:588px;
+        margin-top: 24px;
+        &:nth-child(1){
+            margin-top: 0;
+        }
+    }
+    &-app{
+        background-color: #fff;
+        display: flex;
+        padding: 16px 24px;
+        justify-content: space-between;
+        align-items: center;
+        cursor: pointer;
+        img{
+            width: fit-content !important;
+        }
+        h3{
+            font-weight: 500;
+            font-size: 18px;
+            color: #43464C;
+            
+        }
+        border-radius: 8px;
+        -webkit-border-radius: 8px;
+        -moz-border-radius: 8px;
+        -ms-border-radius: 8px;
+        -o-border-radius: 8px;
+    }
+    &-content{
+        display: none;
+        background-color: #fff;
+        padding: 16px 24px;
+        border-bottom-left-radius: 0px !important;
+        border-bottom-right-radius:0px !important;
+    }
+    .open{
+        .questions-app{
+            border-bottom-left-radius: 0px !important;
+            border-bottom-right-radius:0px !important;
+        }
+        .questions-content{
+            display: block;
+            border-bottom-left-radius: 8px !important;
+        border-bottom-right-radius:8px !important;
+        }
+    }
+}

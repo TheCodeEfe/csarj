@@ -1,0 +1,31 @@
+.contact-row{
+    margin-top: 40px;
+    &-bg{
+        border-radius: 16px;
+        -webkit-border-radius: 16px;
+        -moz-border-radius: 16px;
+        -ms-border-radius: 16px;
+        overflow: hidden;
+        -o-border-radius: 16px;
+        background-image: url("../img/contact.png"), linear-gradient(268.55deg, #0077B6 -2.59%, #1E4584 104.12%);
+        background-position: right;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    &-title{
+        padding: 88px 102px;
+        h4{
+            font-weight: 600;
+            font-size: 24px;
+            color: #fff;
+        }
+        p{
+            font-weight: 500;
+            font-size: 16px;
+            opacity: 0.8;
+            color: #fff;
+            margin-top: 8px;
+            margin-bottom: 24px;
+        }
+    }
+}
