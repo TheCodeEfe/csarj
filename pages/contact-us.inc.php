@@ -71,7 +71,7 @@
                             </select>
                         </div>
                         <div class="form_contact__box">     
-                            <textarea id="w3review" rows="4" cols="50"  name="message"></textarea> 
+                            <textarea id="w3review" class="form_contact__box__input" rows="4" cols="50"  name="message"></textarea> 
                             <label class="input-textarea" for="w3review">Mesajınız*</label>
                         </div>
                         <div class="alert ">

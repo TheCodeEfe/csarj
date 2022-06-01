@@ -78,6 +78,7 @@
     <!-- Optional JavaScript -->
     <!-- jQuery first-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" type="text/javascript"></script>
+    <script src="app/js/app.js" type="text/javascript"></script>
     <script  type="text/javascript">
     $(".menu--btn").click(function(){
         $(".header-mobile").toggleClass("active");
@@ -114,6 +115,22 @@
 <script>
 $(function () {
 //$("#phone").mask("(999)-999-9999");
+
+
+//focus
+
+$(document).on('keyup',".form_contact__box .form_contact__box__input",function () {
+   
+    let value = $(this).val();
+    let thisIndex = $(".form_contact__box .form_contact__box__input").index(this);
+
+    console.log(value);
+
+    if( value.length > 0 ){
+        $(".form_contact__box > label").eq(thisIndex).addClass("inputValid");
+    }
+    
+});
 
 
 $("#contact").click(
