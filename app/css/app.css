@@ -6,6 +6,10 @@ header nav .menu--nav > ul > li ul.menu--nav--ul{
 .container p a {
     color: #07BEB8!important;
 }
+.privacy p {
+line-height: 24px;
+font-weight: 400;
+}
 
 .inputValid{
     font-weight: 400!important;
@@ -13,3 +17,34 @@ header nav .menu--nav > ul > li ul.menu--nav--ul{
     color: #07BEB8!important;
     bottom: 40px!important;
 }
+.main-bg--title {
+    z-index: 21;
+}
+.main-bg img {
+    border-radius: 16px;
+}
+.ContactMap iframe {
+    width:588px;
+    height:440px
+}
+@media (max-width: 39.9375em) {
+    .ContactMap iframe {
+        width: 375px;
+    }
+    .download-app-links a div span
+    {
+        font-size: 14px;
+    }
+    .main-bg img {
+        border-radius: unset;
+    }
+    .header {
+        backdrop-filter: blur(12px);
+        border-radius: 0px 0px 16px 16px;
+    }
+ }
+
+ .questions .left p {
+     text-align: center;
+ }
+

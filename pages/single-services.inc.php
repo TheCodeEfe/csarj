@@ -70,8 +70,11 @@
             <img src="app/img/Hizmetler-1.png" alt="">
             <div class="main-bg--title">
                 <h3>Kurumsal Kurulumlar</h3>
-                <p class="main-bg--dic">Eviniz, iş yeriniz, yazlığınız veya dilediğiniz herhangi bir noktaya ev
-                    tipi</br> cihazınızın kurulumunu gerçekleştiriyoruz.</p>
+                <ul>
+                        <li><p>Bina, toplu konut ya da alışveriş merkezlerinin açık/kapalı otoparklarında şarj cihazı kurulumu gerçekleştiriyor, </p></li>
+                        <li><p>Şirket bünyesinde bulunan makam veya ortak kullanım araçları için özel çözümler üretiyoruz.</p></li>
+                        <li><p>Otopark İşletmelerinin açık/kapalı alanlarında şarj cihazı kurulumları</p></li>
+                </ul>
                 <button class="btn"><a href=""><span>Hemen İncele</span></a></button>
             </div>
         </div>

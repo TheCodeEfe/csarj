@@ -29,10 +29,7 @@
                                 <li><a href="?pg=services"><span>Tümünü Gör</span></a></li>
                             </ul>
                     </li>
-                        <li><a href="#">
-                            <img src="app/img/svg/map.svg" alt="">
-                            <span>İSTASYON HARİTASI</span>
-                        </a></li>
+                        
                         <li><a href="?pg=reservation">
                             <img src="app/img/svg/note.svg" alt="">
                             <span>REZERVASYON</span>
@@ -58,7 +55,7 @@
                             <span>Hakkımızda</span>
                         </a></li>
                         <li class="menu--nav-ul">
-                            <a href="?pg=services" class="menu--nav--li-a">
+                            <a href="#" class="menu--nav--li-a">
                                 <img src="app/img/svg/star.svg" alt="">
                                 <span>HİZMETLERİMİZ</span>
                             </a>
@@ -70,11 +67,8 @@
                                 <li><a href="?pg=services">Tümünü Gör</a></li>
                             </ul>
                         </li>
-                        <li><a href="#" class="menu--nav--li-a">
-                            <img src="app/img/svg/map.svg" alt="">
-                            <span>İSTASYON HARİTASI</span>
-                        </a></li>
-                        <li><a href="#" class="menu--nav--li-a">
+                        
+                        <li><a href="?pg=reservation" class="menu--nav--li-a">
                             <img src="app/img/svg/note.svg" alt="">
                             <span>REZERVASYON</span>
                         </a></li>

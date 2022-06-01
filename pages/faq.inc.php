@@ -29,7 +29,7 @@
                 <div class="questions-item">
                         <div class="questions-app">
                             <h3>Elektrikli araç nedir?</h3>
-                            <img src="app/img/svg/questionapp.svg" alt="">
+                            
                         </div>
                         <div class="questions-content">
                             <p>
@@ -46,7 +46,7 @@
                     <div class="questions-item">
                         <div class="questions-app">
                             <h3>Nasıl C-Şarj üyesi olurum?</h3>
-                            <img src="app/img/svg/questionapp.svg" alt="">
+                            
                         </div>
                         <div class="questions-content">
                             <p>
@@ -57,7 +57,7 @@
                     <div class="questions-item">
                         <div class="questions-app">
                             <h3>Aracımı şarj etmeyi nasıl başlatabilirim?</h3>
-                            <img src="app/img/svg/questionapp.svg" alt="">
+                            
                         </div>
                         <div class="questions-content">
                             <p>
@@ -68,7 +68,7 @@
                     <div class="questions-item">
                         <div class="questions-app">
                             <h3>Şarjı ne kadar sürede biter?</h3>
-                            <img src="app/img/svg/questionapp.svg" alt="">
+                            
                         </div>
                         <div class="questions-content">
                             <p>
@@ -90,7 +90,7 @@
                     <div class="questions-item">
                         <div class="questions-app">
                             <h3>Şarj ile ne kadar menzil kazanırım?</h3>
-                            <img src="app/img/svg/questionapp.svg" alt="">
+                            
                         </div>
                         <div class="questions-content">
                             <p>
@@ -108,7 +108,7 @@
                     <div class="questions-item">
                         <div class="questions-app">
                             <h3>Ücretlendirme ve ödeme nasıl yapılır?</h3>
-                            <img src="app/img/svg/questionapp.svg" alt="">
+                            
                         </div>
                         <div class="questions-content">
                             <p>Üyelerimiz için ücretlendirmeler, C-Şarj'ın özel fiyatları ile cihazlardan aktarılan enerji miktarına göre kilowatt cinsinden hesaplanır. EPDK enerji birim fiyatları üzerinden tüketilen enerjinin tarife karşılığı ve sağlanmış olan cihaz hizmetinin güç cinsine göre kullanım bedelinin toplamından oluşur.
@@ -122,7 +122,7 @@
                     <div class="questions-item">
                         <div class="questions-app">
                             <h3>Aracımı nerelerde şarj edebilirim?</h3>
-                            <img src="app/img/svg/questionapp.svg" alt="">
+                            
                         </div>
                         <div class="questions-content">
                             <p>Aracınızı C-Şarj logosu taşıyan C-Şarj ünitelerinde veya iş ortağımız olan firmaların cihazlarını kullanarak şarj edebilirsiniz. 
@@ -137,7 +137,7 @@
                     <div class="questions-item">
                         <div class="questions-app">
                             <h3>Nasıl rezervasyon yapılır?</h3>
-                            <img src="app/img/svg/questionapp.svg" alt="">
+                            
                         </div>
                         <div class="questions-content">
                             <p>

@@ -95,7 +95,7 @@
                     <div class="questions-item">
                         <div class="questions-app">
                             <h3>Elektrikli araç nedir?</h3>
-                            <img src="app/img/svg/questionapp.svg" alt="">
+                            
                         </div>
                         <div class="questions-content">
                             <p>
@@ -110,7 +110,7 @@
                     <div class="questions-item">
                         <div class="questions-app">
                             <h3>Nasıl C-Şarj üyesi olurum?</h3>
-                            <img src="app/img/svg/questionapp.svg" alt="">
+                            
                         </div>
                         <div class="questions-content">
                             <p>
@@ -121,7 +121,7 @@
                     <div class="questions-item">
                         <div class="questions-app">
                             <h3>Aracımı şarj etmeyi nasıl başlatabilirim?</h3>
-                            <img src="app/img/svg/questionapp.svg" alt="">
+                            
                         </div>
                         <div class="questions-content">
                             <p>
@@ -132,7 +132,7 @@
                     <div class="questions-item">
                         <div class="questions-app">
                             <h3>Şarjı ne kadar sürede biter?</h3>
-                            <img src="app/img/svg/questionapp.svg" alt="">
+                            
                         </div>
                         <div class="questions-content">
                             <p>
@@ -154,7 +154,7 @@
                     <div class="questions-item">
                         <div class="questions-app">
                             <h3>Şarj ile ne kadar menzil kazanırım?</h3>
-                            <img src="app/img/svg/questionapp.svg" alt="">
+                            
                         </div>
                         <div class="questions-content">
                             <p>

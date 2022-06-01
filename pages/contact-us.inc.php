@@ -25,8 +25,8 @@
         <div class="container">
             <div class="main-bg">
                 <!-- <img src="app/img/map.png" alt=""> -->
-                <div class="map" style="width:588px;height:440px">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6356125.1194824185!2d28.13231255868141!3d38.933651227550506!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab77b9bb229b9%3A0xa7e8daf088fcd5a0!2sDetay%20G%C4%B1da!5e0!3m2!1str!2str!4v1654087466369!5m2!1str!2str" width="588" height="440" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <div class="ContactMap">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6356125.1194824185!2d28.13231255868141!3d38.933651227550506!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab77b9bb229b9%3A0xa7e8daf088fcd5a0!2sDetay%20G%C4%B1da!5e0!3m2!1str!2str!4v1654087466369!5m2!1str!2str" width="100%" height="440" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
                 <div class="main-bg--title">
                     <ul class="main__contact_us">
