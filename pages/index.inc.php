@@ -12,7 +12,7 @@
                 <img src="app/img/Hero.png" alt="" class="img-fluid">
                 <div class="index-site-box-title">
                     <h1>Güzel Bir Gelecek İçin!</h1>
-                    <p>Çevreye duyarlı C-Şarj elektrikli araç şarj operatörüyle geleceğimiz güzelleşecek.</p>
+                    <p>Çevreye duyarlı C-Şarj elektrikli araç şarj operatörüyle geleceğimiz<br> güzelleşecek.</p>
                     <button class="btn"><a href="">Hemen İncele</a></button>
                 </div>
             </div>
@@ -76,7 +76,7 @@
                 </div>
                 <div class="contact-row-title">
                     <h4>Bizimle İletişime Geçin</h4>
-                    <p>Porta gravida neque, pulvinar malesuada tempus</br>massa amet non nunc.</p>
+                    <p>C-Şarj kurulumu yaptırmak için başvuru formunu <br>doldurarak bizimle iletişime geçebilirsiniz.</p>
                     <button class="btn  btn-white"><a href="?pg=contact-us">Şimdi Başvur</a></button>
                 </div>
             </div>
@@ -169,46 +169,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="questions-item">
-                        <div class="questions-app">
-                            <h3>Ücretlendirme ve ödeme nasıl yapılır?</h3>
-                            <img src="app/img/svg/questionapp.svg" alt="">
-                        </div>
-                        <div class="questions-content">
-                            <p>Üyelerimiz için ücretlendirmeler, C-Şarj'ın özel fiyatları ile cihazlardan aktarılan enerji miktarına göre kilowatt cinsinden hesaplanır. EPDK enerji birim fiyatları üzerinden tüketilen enerjinin tarife karşılığı ve sağlanmış olan cihaz hizmetinin güç cinsine göre kullanım bedelinin toplamından oluşur.
-
-                            Üyelerimiz, C-Şarj uygulaması içinde sadece kendilerinin sisteme tanımlayacakları kredi kartı bilgileri ile kolayca ödeme yapabilirler.
-
-                            Kullanacağınız cihazın cinsine göre (AC - Type 2, DC - CCS2) cihaz kullanım kWs hizmet bedellerini öğrenmek için lütfen Ücretlendirme / Ücretlendirme Tarifeleri başlığına bakınız.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="questions-item">
-                        <div class="questions-app">
-                            <h3>Aracımı nerelerde şarj edebilirim?</h3>
-                            <img src="app/img/svg/questionapp.svg" alt="">
-                        </div>
-                        <div class="questions-content">
-                            <p>Aracınızı C-Şarj logosu taşıyan C-Şarj ünitelerinde veya iş ortağımız olan firmaların cihazlarını kullanarak şarj edebilirsiniz. 
-
-                            C-Şarj üniteleri;<br>
-                            11 kW – AC,<br>
-                            22kW – AC,<br>
-                            50kW – DC olarak aracınızın invertör imkanlarına göre enerji sağlayacaktır.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="questions-item">
-                        <div class="questions-app">
-                            <h3>Nasıl rezervasyon yapılır?</h3>
-                            <img src="app/img/svg/questionapp.svg" alt="">
-                        </div>
-                        <div class="questions-content">
-                            <p>
-                                C-Şarj uygulaması üzerinden seyahat programınız ve güzergahınız üzerindeki dinlenme planınıza göre kolayca rezervasyon yapabilirsiniz.
-                             </p>
-                        </div>
-                    </div>
+                    
                 </div>
             </div>
         </div>
@@ -224,7 +185,7 @@
                 </div>
                 <div class="download-app-dic">
                     <h4>C-Şarj Uygulamasını Hemen İndirin</h4>
-                    <p>C-Şarj Mobil Uygulaması ile siz de geleceğinize iyi gelecek enerji <br>dolu hizmetlerimizle kolayca tanışın.</p>
+                    <p>C-Şarj Mobil Uygulaması ile siz de geleceğinize iyi gelecek enerji<br> dolu hizmetlerimizle kolayca tanışın.</p>
                     <div class="download-app-links">
                         <button class="btn btn-white"><a href=""><img src="app/img/svg/appstore.svg" alt=""><div><span>App Store</span><p>Hemen indir</p></div></a></button>
                         <button class="btn btn-white"><a href=""><img src="app/img/svg/googleplay.svg" alt=""><div><span>Google Play</span><p>Hemen indir</p></div></a></button>

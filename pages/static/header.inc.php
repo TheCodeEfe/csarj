@@ -18,8 +18,17 @@
                         </a></li>
                         <li><a href="?pg=services">
                             <img src="app/img/svg/star.svg" alt="">
-                            <span>HİZMETLER</span>
-                        </a></li>
+                            <span>HİZMETLERİMİZ</span>
+                        </a>
+
+                        <ul class="menu--nav--ul">
+                                <li><a href="?pg=single-services&title=bireysel-kurulumlar"><span>Bireysel Kurulumlar</span></a></li>
+                                <li><a href="?pg=single-services&title=kurumsal-kurulumlar"><span>Kurumsal Kurulumlar</span></a></li>
+                                <li><a href="?pg=single-services&title=is-ortakligi"><span>İş Ortaklığı</span></a></li>
+                                <li><a href="?pg=single-services&title=filo-anlasmalari"><span>Filo Anlaşmaları</span></a></li>
+                                <li><a href="?pg=services"><span>Tümünü Gör</span></a></li>
+                            </ul>
+                    </li>
                         <li><a href="#">
                             <img src="app/img/svg/map.svg" alt="">
                             <span>İSTASYON HARİTASI</span>
@@ -48,17 +57,17 @@
                             <img src="app/img/svg/car.svg" alt="">
                             <span>Hakkımızda</span>
                         </a></li>
-                        <li>
+                        <li class="menu--nav-ul">
                             <a href="?pg=services" class="menu--nav--li-a">
                                 <img src="app/img/svg/star.svg" alt="">
-                                <span>HİZMETLER</span>
+                                <span>HİZMETLERİMİZ</span>
                             </a>
                             <ul>
-                                <li><a href="#">Bireysel Kurulumlar</a></li>
-                                <li><a href="#">Kurumsal Kurulumlar</a></li>
-                                <li><a href="#">Filo Anlaşmaları</a></li>
-                                <li><a href="#">İş Ortaklığı</a></li>
-                                <li><a href="#">Tümünü Gör</a></li>
+                                <li><a href="?pg=single-services&title=bireysel-kurulumlar">Bireysel Kurulumlar</a></li>
+                                <li><a href="?pg=single-services&title=kurumsal-kurulumlar">Kurumsal Kurulumlar</a></li>
+                                <li><a href="?pg=single-services&title=filo-anlasmalari">Filo Anlaşmaları</a></li>
+                                <li><a href="?pg=single-services&title=is-ortakligi">İş Ortaklığı</a></li>
+                                <li><a href="?pg=services">Tümünü Gör</a></li>
                             </ul>
                         </li>
                         <li><a href="#" class="menu--nav--li-a">
@@ -75,11 +84,11 @@
                                 <span>ÜYELİK</span>
                             </a>
                             <ul>
-                                <li><a href="#">Bireysel Kurulumlar</a></li>
-                                <li><a href="#">Kurumsal Kurulumlar</a></li>
-                                <li><a href="#">Filo Anlaşmaları</a></li>
-                                <li><a href="#">İş Ortaklığı</a></li>
-                                <li><a href="#">Tümünü Gör</a></li>
+                                <li><a href="?pg=single-services&title=bireysel-kurulumlar">Bireysel Kurulumlar</a></li>
+                                <li><a href="?pg=single-services&title=kurumsal-kurulumlar">Kurumsal Kurulumlar</a></li>
+                                <li><a href="?pg=single-services&title=filo-anlasmalari">Filo Anlaşmaları</a></li>
+                                <li><a href="?pg=single-services&title=is-ortakligi">İş Ortaklığı</a></li>
+                                <li><a href="?pg=services">Tümünü Gör</a></li>
                             </ul>
                         </li>
                         <li><a href="?pg=contact-us" class="menu--nav--li-a"> 

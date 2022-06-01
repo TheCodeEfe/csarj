@@ -39,18 +39,19 @@
                 <div class="footer-main-right-box">
                     <div class="head">
                         <img src="app/img/svg/star.svg" alt="">
-                        <h4>HİZMETLER</h4>
+                        <h4>HİZMETLERİMİZ</h4>
                     </div>
                     <ul class="footer-menu">
                         <li><a href="?pg=single-services&title=bireysel-kurulumlar"><span>Bireysel Kurulumlar</span></a></li>
                         <li><a href="?pg=single-services&title=kurumsal-kurulumlar"><span>Kurumsal Kurulumlar</span></a></li>
                         <li><a href="?pg=single-services&title=filo-anlasmalari"><span>Filo Anlaşmaları</span></a></li>
                         <li><a href="?pg=single-services&title=is-ortakligi"><span>İş Ortaklığı</span></a></li>
+                        <li><a href="?pg=services"><span>Tümünü Gör</span></a></li>
                     </ul>
                 </div>
                 <div class="footer-main-right-box">
                     <div class="head">
-                        <img src="app/img/svg/diger.svg" alt="">
+                        <img src="app/img/svg/diger-ico.svg" alt="">
                         <h4>DİĞER</h4>
                     </div>
                     <ul class="footer-menu">
@@ -67,6 +68,7 @@
             <div class="footer-bottom-bg">
                 <span class="copy-rgith">© 2022</span>
                 <ul>
+                    <li><a href="?pg=cookie"><span>Çerez Politikası</span></a></li>
                     <li><a href="?pg=privacy"><span>Gizlilik Politikası</span></a></li>
                     <li><a href="?pg=kvkk"><span>Kişisel Verilerin Korunması</span></a></li>
                 </ul>
@@ -107,3 +109,40 @@
         $(this).next("ul").toggleClass("active").slideToggle(500);
     });
     </script>
+
+
+<script>
+$(function () {
+//$("#phone").mask("(999)-999-9999");
+
+
+$("#contact").click(
+function (e) 
+{
+
+ 
+    
+    e.preventDefault();
+
+var form = $("#forms").serialize();
+$(".alert").html("");
+$.post('ajaxIslemler.php', form, function (data) {
+	
+  if(data.err == 0 || data.err == 2)
+  {
+  	 //location.href = "?pg=thanks&pID="+pID;
+  	 $(".alert").html(data.msg);
+  	 $("#forms")[0].reset();
+  }
+  else
+  {
+  
+  	$(".alert").html(data.msg);
+      
+  }
+},'json');
+return false;
+});
+
+});
+</script>

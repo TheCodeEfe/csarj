@@ -123,6 +123,11 @@
                                 font-size: 16px;
                                 color: #43464C;
                             }
+                            &:hover{
+                                span{
+                                    color: #07BEB8;
+                                }
+                            }
                         }
                     }
                 }
@@ -258,7 +263,7 @@
                             content: ' ';
                             height: 100%;
                             display: block;
-                            background: url('/app/img/svg/arrow.svg');
+                            background: url('/app/img/svg/arrow\ bottom\ .svg');
                             width: 16px;
                             right: 0;
                             top: 50%;

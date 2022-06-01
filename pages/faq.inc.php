@@ -35,11 +35,11 @@
                             <p>
                             Elektrikli araçlar sadece elektrik enerjisi ile hareket edebilen veya elektrik enerjisi desteği alan içten yanmalı motorlara sahip olan kara araçlarıdır. Çeşitli kategorilere ayrılır.
                             <ul>
-                            <li>EV (Electric Vehicle): Sadece elektrik enerjisi ile tahrik edilen kara ara&ccedil;larıdır.</li>
-                            <li>MHEV (Mild Hybrid Electric Vehicle): Elektrik enerjisini kendisi &uuml;reterek, i&ccedil;ten yanmalı motorlara elektrik motoruyla da destek sağlayan kara ara&ccedil;larıdır.</li>
-                            <li>PHEV (Plug-in Hybrid Electirc Vehicle): Kendi elektrik enerjisini &uuml;retmesinin yanı sıra dış enerji kaynaklarına da bağlanarak enerji depolanabilen kara ara&ccedil;larıdır.</li>
-                            <li>FCEV (Fuel Cell Electric Vehicle): Değiştirilebilir yakıt h&uuml;cresi kullanarak, elektrik enerjisi ile yol alabilen kara ara&ccedil;larıdır.</li>
-                        </ul>
+                                <li>EV (Electric Vehicle): Sadece elektrik enerjisi ile tahrik edilen kara ara&ccedil;larıdır.</li>
+                                <li>MHEV (Mild Hybrid Electric Vehicle): Elektrik enerjisini kendisi &uuml;reterek, i&ccedil;ten yanmalı motorlara elektrik motoruyla da destek sağlayan kara ara&ccedil;larıdır.</li>
+                                <li>PHEV (Plug-in Hybrid Electirc Vehicle): Kendi elektrik enerjisini &uuml;retmesinin yanı sıra dış enerji kaynaklarına da bağlanarak enerji depolanabilen kara ara&ccedil;larıdır.</li>
+                                <li>FCEV (Fuel Cell Electric Vehicle): Değiştirilebilir yakıt h&uuml;cresi kullanarak, elektrik enerjisi ile yol alabilen kara ara&ccedil;larıdır.</li>
+                            </ul>
                             </p>
                         </div>
                     </div>

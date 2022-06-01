@@ -55,8 +55,8 @@
                     </div>
                 </div>
                 <div class="download-app-dic">
-                    <h4>C-Şarj App’i İndir</h4>
-                    <p>Cum sit vulputate platea consequat rhoncus nunc viverra</br>pellentesque sit.</p>
+                    <h4>C-Şarj Uygulamasını Hemen İndirin</h4>
+                    <p>C-Şarj Mobil Uygulaması ile siz de geleceğinize iyi gelecek enerji<br> dolu hizmetlerimizle kolayca tanışın.</p>
                     <div class="download-app-links">
                         <button class="btn btn-white"><a href=""><img src="app/img/svg/appstore.svg" alt=""><div><span>App Store</span><p>Hemen indir</p></div></a></button>
                         <button class="btn btn-white"><a href=""><img src="app/img/svg/googleplay.svg" alt=""><div><span>Google Play</span><p>Hemen indir</p></div></a></button>

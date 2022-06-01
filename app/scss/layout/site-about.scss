@@ -2,7 +2,7 @@
 .site-about{
     position: relative;
     &::after{
-        position: absolute;
+        position: fixed;
         content: '';
         width: 570px;
         height: 570px;
@@ -50,7 +50,11 @@
     &-right{
         img{
             width: 282px;
-            margin-top: -164px;
+            transform: translateY(-164px);
+            -webkit-transform: translateY(-164px);
+            -moz-transform: translateY(-164px);
+            -ms-transform: translateY(-164px);
+            -o-transform: translateY(-164px);
         }
     }
     @include breakpoint-down(small) {
@@ -78,9 +82,13 @@
         &-right{
             text-align: center;
             img{
-                margin-top: 0;
+                transform: translateY(0px) !important;
                 width: 165px;
-            }
+                -webkit-transform: translateY(0px) !important;
+                -moz-transform: translateY(0px) !important;
+                -ms-transform: translateY(0px) !important;
+                -o-transform: translateY(0px) !important;
+}
         }
     }
 }

@@ -185,6 +185,15 @@ a:active {
 .btn-white a {
   color: #0077B6 !important;
 }
+.btn-white:hover {
+  background-color: rgba(255, 255, 255, 0.8) !important;
+  -webkit-box-shadow: 0px 8px 16px rgba(7, 190, 184, 0.16);
+          box-shadow: 0px 8px 16px rgba(7, 190, 184, 0.16);
+  border-radius: 56px;
+}
+.btn-white:hover a {
+  color: #0077B6 !important;
+}
 
 .btn-p {
   width: 260px;
@@ -226,6 +235,25 @@ header nav.header-mobile {
   header nav.header-mobile .menu--nav {
     display: block;
   }
+  header nav.header-mobile .menu--nav > ul li.menu--nav-ul > a::after {
+    content: " ";
+    height: 100%;
+    display: block;
+    background: url("/app/img/svg/arrow bottom .svg");
+    width: 16px;
+    right: 0;
+    top: 50%;
+    background-repeat: no-repeat;
+    position: absolute;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    background-position: center;
+    transition: background ease-in-out 300ms;
+    -webkit-transition: background ease-in-out 300ms;
+    -moz-transition: background ease-in-out 300ms;
+    -ms-transition: background ease-in-out 300ms;
+    -o-transition: background ease-in-out 300ms;
+  }
   header nav.header-mobile .menu--nav > ul > li {
     padding: 24px 0px;
     margin: 0;
@@ -237,6 +265,9 @@ header nav.header-mobile {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+  }
+  header nav.header-mobile .menu--nav > ul > li:nth-last-child(1) {
+    border: none;
   }
   header nav.header-mobile .menu--nav > ul > li > a {
     -webkit-box-orient: horizontal;
@@ -466,6 +497,50 @@ header nav .menu--nav > ul > li > a span {
   color: #43464C;
   text-transform: uppercase;
 }
+header nav .menu--nav > ul > li:hover ul.menu--nav--ul {
+  opacity: 1;
+  visibility: visible;
+}
+header nav .menu--nav > ul > li:hover > a span {
+  color: #07BEB8;
+}
+header nav .menu--nav > ul > li ul.menu--nav--ul {
+  transition: all 300ms ease-in-out;
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  top: 61px;
+  padding: 24px;
+  background: #fff;
+  border-radius: 0px 32px 16px 16px;
+  width: 100%;
+  min-width: 183px;
+  left: -32px;
+  -webkit-transition: all 300ms ease-in-out;
+  -moz-transition: all 300ms ease-in-out;
+  -ms-transition: all 300ms ease-in-out;
+  -o-transition: all 300ms ease-in-out;
+}
+header nav .menu--nav > ul > li ul.menu--nav--ul li {
+  display: block;
+  padding: 16px 0px;
+  border-bottom: 1px solid #F2F5F8;
+}
+header nav .menu--nav > ul > li ul.menu--nav--ul li:nth-child(1) {
+  padding-top: 0px;
+}
+header nav .menu--nav > ul > li ul.menu--nav--ul li:nth-last-child(1) {
+  padding-bottom: 0px;
+  border: none;
+}
+header nav .menu--nav > ul > li ul.menu--nav--ul li a span {
+  font-weight: 500;
+  font-size: 14px;
+  color: #43464C;
+}
+header nav .menu--nav > ul > li ul.menu--nav--ul li:hover a span {
+  color: #07BEB8;
+}
 header nav .menu--btn {
   display: none;
 }
@@ -488,7 +563,6 @@ header nav .menu--btn {
   -o-border-radius: 16px;
 }
 .index-site-box-title {
-  width: 495px;
   margin: 0 auto;
   text-align: center;
   padding-bottom: 32px;
@@ -908,6 +982,17 @@ header nav .menu--btn {
 .questions-item:nth-child(1) {
   margin-top: 0;
 }
+.questions .open .questions-app::after {
+  content: " ";
+  width: 12px;
+  height: 15px;
+  background: url("/app/img/svg/faq.svg");
+  background-size: auto;
+  position: absolute;
+  right: 24px;
+  display: block;
+  background-size: cover;
+}
 .questions-app {
   background-color: #fff;
   display: -webkit-box;
@@ -921,11 +1006,25 @@ header nav .menu--btn {
       -ms-flex-align: center;
           align-items: center;
   cursor: pointer;
+  position: relative;
   border-radius: 8px;
   -webkit-border-radius: 8px;
   -moz-border-radius: 8px;
   -ms-border-radius: 8px;
   -o-border-radius: 8px;
+}
+.questions-app::after {
+  content: " ";
+  width: 12px;
+  height: 15px;
+  background: url("/app/img/svg/questionapp.svg");
+  background-size: auto;
+  position: absolute;
+  -webkit-transition: background 100ms ease-in-out;
+  transition: background 100ms ease-in-out;
+  right: 24px;
+  display: block;
+  background-size: cover;
 }
 .questions-app img {
   width: -webkit-fit-content !important;
@@ -946,6 +1045,13 @@ header nav .menu--btn {
   padding: 16px 24px;
   border-bottom-left-radius: 0px !important;
   border-bottom-right-radius: 0px !important;
+  padding-top: 0px !important;
+}
+.questions-content .line {
+  width: 100%;
+  height: 2px;
+  background: #F2F5F8;
+  margin-bottom: 24px;
 }
 .questions .open .questions-app {
   border-bottom-left-radius: 0px !important;
@@ -996,6 +1102,13 @@ header nav .menu--btn {
 }
 .faq .questions-item {
   width: 100% !important;
+}
+.faq .questions-app {
+  padding: 24px;
+}
+.faq .questions-content ul {
+  margin-left: 16px;
+  margin-top: 24px;
 }
 
 .footer {
@@ -1152,6 +1265,9 @@ header nav .menu--btn {
   font-size: 16px;
   color: #43464C;
 }
+.footer-main-right-box ul.footer-menu li a:hover span {
+  color: #07BEB8;
+}
 .footer-bottom {
   margin: 0 auto;
   width: 1264px;
@@ -1295,7 +1411,7 @@ header nav .menu--btn {
     content: " ";
     height: 100%;
     display: block;
-    background: url("/app/img/svg/arrow.svg");
+    background: url("/app/img/svg/arrow bottom .svg");
     width: 16px;
     right: 0;
     top: 50%;
@@ -1382,7 +1498,7 @@ header nav .menu--btn {
   position: relative;
 }
 .site-about::after {
-  position: absolute;
+  position: fixed;
   content: "";
   width: 570px;
   height: 570px;
@@ -1445,7 +1561,11 @@ header nav .menu--btn {
 }
 .site-about-right img {
   width: 282px;
-  margin-top: -164px;
+  transform: translateY(-164px);
+  -webkit-transform: translateY(-164px);
+  -moz-transform: translateY(-164px);
+  -ms-transform: translateY(-164px);
+  -o-transform: translateY(-164px);
 }
 @media (max-width: 39.9375em) {
   .site-about {
@@ -1482,8 +1602,12 @@ header nav .menu--btn {
     text-align: center;
   }
   .site-about-right img {
-    margin-top: 0;
+    transform: translateY(0px) !important;
     width: 165px;
+    -webkit-transform: translateY(0px) !important;
+    -moz-transform: translateY(0px) !important;
+    -ms-transform: translateY(0px) !important;
+    -o-transform: translateY(0px) !important;
   }
 }
 
@@ -1554,6 +1678,9 @@ header nav .menu--btn {
   font-weight: 600;
   font-size: 12px;
   color: #9EA0A6;
+}
+.title-page-404::after {
+  display: none !important;
 }
 @media (max-width: 39.9375em) {
   .title-page {
@@ -1664,6 +1791,13 @@ header nav .menu--btn {
 }
 .main-bg ul {
   margin-left: 16px;
+}
+.main-bg ul.mt-2 {
+  margin-top: 16px;
+}
+.main-bg ul.light li p {
+  font-weight: 400;
+  font-size: 12px;
 }
 .main-left {
   -webkit-box-orient: horizontal;
@@ -2094,7 +2228,7 @@ header nav .menu--btn {
   border: none;
   border-bottom: 1px solid #DFE1E6;
 }
-.contact_form__bg__left .form_contact__box input[type=text]:focus + label {
+.contact_form__bg__left .form_contact__box input[type=text]:focus + label, .contact_form__bg__left .form_contact__box input[type=text]:valid {
   font-weight: 400;
   font-size: 12px;
   color: #07BEB8;
@@ -2134,6 +2268,7 @@ header nav .menu--btn {
   /* Safari and Chrome */
   appearance: none;
   position: relative;
+  font-family: "Avenir Next";
   z-index: 1111;
 }
 .contact_form__bg__left .form_contact__box select:focus {

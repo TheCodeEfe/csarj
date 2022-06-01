@@ -41,8 +41,8 @@
             </div>
             <div class="contact-row-title">
                 <h4>Bizimle İletişime Geçin</h4>
-                <p>Porta gravida neque, pulvinar malesuada tempus</br>massa amet non nunc.</p>
-                <button class="btn  btn-white"><a href="">Şimdi Başvur</a></button>
+                <p>C-Şarj kurulumu yaptırmak için başvuru formunu <br>doldurarak bizimle iletişime geçebilirsiniz.</p>
+                <button class="btn  btn-white"><a href="?pg=contact-us">Şimdi Başvur</a></button>
             </div>
         </div>
     </div>
@@ -67,7 +67,7 @@
 <section class="main">
     <div class="container">
         <div class="main-bg">
-            <img src="app/img/Hizmetler.png" alt="">
+            <img src="app/img/Hizmetler-1.png" alt="">
             <div class="main-bg--title">
                 <h3>Kurumsal Kurulumlar</h3>
                 <p class="main-bg--dic">Eviniz, iş yeriniz, yazlığınız veya dilediğiniz herhangi bir noktaya ev
@@ -85,8 +85,8 @@
             </div>
             <div class="contact-row-title">
                 <h4>Bizimle İletişime Geçin</h4>
-                <p>Porta gravida neque, pulvinar malesuada tempus</br>massa amet non nunc.</p>
-                <button class="btn  btn-white"><a href="">Şimdi Başvur</a></button>
+                <p>C-Şarj kurulumu yaptırmak için başvuru formunu<br>doldurarak bizimle iletişime geçebilirsiniz.</p>
+                <button class="btn  btn-white"><a href="?pg=contact-us">Şimdi Başvur</a></button>
             </div>
         </div>
     </div>
@@ -113,7 +113,7 @@
 <section class="main">
     <div class="container">
         <div class="main-bg">
-            <img src="app/img/Hizmetler.png" alt="">
+            <img src="app/img/Hizmetler-2.png" alt="">
             <div class="main-bg--title">
                 <h3>İş Ortaklığılar</h3>
                     <ul>
@@ -140,8 +140,8 @@
             </div>
             <div class="contact-row-title">
                 <h4>Bizimle İletişime Geçin</h4>
-                <p>Porta gravida neque, pulvinar malesuada tempus</br>massa amet non nunc.</p>
-                <button class="btn  btn-white"><a href="">Şimdi Başvur</a></button>
+                <p>C-Şarj kurulumu yaptırmak için başvuru formunu <br>doldurarak bizimle iletişime geçebilirsiniz.</p>
+                <button class="btn  btn-white"><a href="?pg=contact-us">Şimdi Başvur</a></button>
             </div>
         </div>
     </div>
@@ -170,7 +170,7 @@
 <section class="main">
     <div class="container">
         <div class="main-bg">
-            <img src="app/img/Hizmetler.png" alt="">
+            <img src="app/img/Hizmetler-3.png" alt="">
             <div class="main-bg--title">
                 <h3>Filo Anlaşmaları</h3>
                 <p class="main-bg--dic">Araç filolarınız yeni güne enerji dolu başlasın diye fabrikalarınız ve dağıtım depolarınıza, özel filo imkanlarımız sayesinde ücretsiz olarak C-Şarj cihazlarının kurulumunu sağlıyoruz.</p>
@@ -187,8 +187,8 @@
             </div>
             <div class="contact-row-title">
                 <h4>Bizimle İletişime Geçin</h4>
-                <p>Porta gravida neque, pulvinar malesuada tempus</br>massa amet non nunc.</p>
-                <button class="btn  btn-white"><a href="">Şimdi Başvur</a></button>
+                <p>C-Şarj kurulumu yaptırmak için başvuru formunu <br>doldurarak bizimle iletişime geçebilirsiniz.</p>
+                <button class="btn  btn-white"><a href="?pg=contact-us">Şimdi Başvur</a></button>
             </div>
         </div>
     </div>

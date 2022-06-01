@@ -57,6 +57,11 @@
             }
         }
     }
+    &-404{
+        &::after{
+            display: none !important;
+        }
+    }
     @include breakpoint-down(small) {
         margin-top: 16px;
         &::after{
@@ -157,6 +162,17 @@
         }
         ul{
             margin-left: 16px;
+        }
+        ul.mt-2{
+            margin-top: 16px;
+        }
+        ul.light{
+            li{
+                p{
+                    font-weight: 400;
+                    font-size: 12px;
+                }
+            }
         }
     }
     &-left{
