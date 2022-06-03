@@ -1,4 +1,15 @@
 
+<section class="popup" style="display: none;">
+<div class="container">
+    <div class="popup-bg">
+        <div>
+            <img src="app/img/svg/popup.svg" alt="">
+            <p>Web sitemizdeki çerezleri (cookie) kullanıcı deneyimini artıran teknik özellikleri desteklemek için kullanıyoruz. Aynı zamanda analitik çerezler de kullanıyoruz. Çerezleri reddetmek istiyorsanız detaylı<a href="#"> bilgi için tıklayınız.</a></p>
+        </div>
+        <button class="btn"><a href="#"><span>Okudum</span></a></button>
+    </div>
+</div>
+</section>
     <header class="header">
         <nav>
             <div class="menu">

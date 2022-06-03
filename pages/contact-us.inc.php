@@ -4,7 +4,10 @@
 <? include_once __DIR__."/static/header.inc.php"; ?>
 
 
-
+<script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBx3QlwbBWxEip1KMZO7k-neya36_2cG8o&callback=initMap&v=weekly&language=tr&region=TR"
+      defer
+    ></script>
 
 <section class="title-page">
         <div class="container">
@@ -24,9 +27,9 @@
     <section class="main">
         <div class="container">
             <div class="main-bg">
-                <!-- <img src="app/img/map.png" alt=""> -->
-                <div class="ContactMap">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6356125.1194824185!2d28.13231255868141!3d38.933651227550506!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab77b9bb229b9%3A0xa7e8daf088fcd5a0!2sDetay%20G%C4%B1da!5e0!3m2!1str!2str!4v1654087466369!5m2!1str!2str" width="100%" height="440" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                
+                <div class="ContactMap" id="mapxx">
+                    <div id="map"></div>
                 </div>
                 <div class="main-bg--title">
                     <ul class="main__contact_us">
@@ -56,6 +59,8 @@
                         <div class="form_contact__box">
                             <input id="Ad" type="text" class="form_contact__box__input" name="fullName">
                             <label class="input-text" for="Ad">Ad Soyad</label>
+                            <label for="cep" class="error" style="display: none;">Error</label>
+
                         </div>
                         <div class="form_contact__box">
                             <input id="Cep" type="text" class="form_contact__box__input"  name="phone">
@@ -64,6 +69,7 @@
                         <div class="form_contact__box">
                             <label class="input-select" for="text"><img src="app/img/svg/arrow bottom .svg" alt=""></label>
                             <select id="text"  name="subject">
+                                <option value="Bireysel Kurulumlar">Konu</option>
                                 <option value="Bireysel Kurulumlar">Bireysel Kurulumlar</option>
                                 <option value="Kurumsal Kurulumlar">Kurumsal Kurulumlar</option>
                                 <option value="İş Ortaklığı">İş Ortaklığı</option>
@@ -92,5 +98,57 @@
         </div>
     </section>
 
+<script>
+
+    let map;
+    let markersArray ;
+    let marker;
     
+    function initMap() {
+        var map;
+         map = new google.maps.Map(document.getElementById("map"), {
+            zoom: 17,
+            center:{lat: 41.0342747217909, lng: 28.991538061372125}
+        });
+        
+
+
+        var marker = new google.maps.Marker({
+			position: {lat: 41.0342747217909, lng: 28.991538061372125},
+			map: map,
+            icon: '/app/img/map-pin.svg'
+		});
+
+         var infowindow ;
+        const contentString =
+            '<div id="content">' +
+            '<div id="siteNotice">' +
+            "</div>" +
+            '<h2 id="firstHeading" class="firstHeading">Csarj</h2>' +
+            '<div id="bodyContent">' +"</div>" +
+            "</div>";
+
+             infowindow = new google.maps.InfoWindow({
+            content: contentString,
+        }); 
+
+        marker.addListener("click", () => {
+            infowindow.open({
+            anchor: marker,
+            map,
+            shouldFocus: false,
+            });
+        });
+        infowindow.open(map,marker); 
+    }
+
+
+    
+
+    
+
+window.initMap = initMap;
+    
+
+</script>
     <? include_once __DIR__."/static/footer.inc.php"; ?>

@@ -1,9 +1,6 @@
 
 <? include_once __DIR__."/static/head.inc.php"; ?>
-
 <? include_once __DIR__."/static/header.inc.php"; ?>
-
-
 
 
 <section class="index-site">
@@ -41,28 +38,28 @@
                     <img src="app/img/services/tree.png" alt="">
                     <div class="services-box-dic">
                         <h3>Bireysel Kurulumlar</h3>
-                        <button class="btn"><a href="?pg=single-services&title=bireysel-kurulumlar">Detaylı Bilgi</a></button>
+                        <button class="btn"><a href="?pg=single-services&title=bireysel-kurulumlar">Hemen İncele</a></button>
                     </div>
                 </div>
                 <div class="services-box res-mt-24">
                     <img src="app/img/services/one.png" alt="">
                     <div class="services-box-dic">
                         <h3>Kurumsal Kurulumlar</h3>
-                        <button class="btn"><a href="?pg=single-services&title=kurumsal-kurulumlar">Detaylı Bilgi</a></button>
+                        <button class="btn"><a href="?pg=single-services&title=kurumsal-kurulumlar">Hemen İncele</a></button>
                     </div>
                 </div>
                 <div class="services-box mt-24">
                     <img src="app/img/services/four.png" alt="">
                     <div class="services-box-dic">
                         <h3>İş Ortaklığı</h3>
-                        <button class="btn"><a href="?pg=single-services&title=is-ortakligi">Detaylı Bilgi</a></button>
+                        <button class="btn"><a href="?pg=single-services&title=is-ortakligi">Hemen İncele</a></button>
                     </div>
                 </div>
                 <div class="services-box mt-24">
                     <img src="app/img/services/two.png" alt="">
                     <div class="services-box-dic">
                         <h3>Filo Anlaşmaları</h3>
-                        <button class="btn"><a href="?pg=single-services&title=filo-anlasmalari">Detaylı Bilgi</a></button>
+                        <button class="btn"><a href="?pg=single-services&title=filo-anlasmalari">Hemen İncele</a></button>
                     </div>
                 </div>
             </div>
@@ -76,8 +73,8 @@
                 </div>
                 <div class="contact-row-title">
                     <h4>Bizimle İletişime Geçin</h4>
-                    <p>C-Şarj kurulumu yaptırmak için başvuru formunu <br>doldurarak bizimle iletişime geçebilirsiniz.</p>
-                    <button class="btn  btn-white"><a href="?pg=contact-us">Şimdi Başvur</a></button>
+                    <p>C-Şarj kurulumu yaptırmak için başvuru formunu doldurarak bizimle iletişime geçebilirsiniz.</p>
+                    <button class="btn  btn-white"><a href="?pg=contact-us">Hemen Başvur</a></button>
                 </div>
             </div>
         </div>
@@ -98,6 +95,7 @@
                             
                         </div>
                         <div class="questions-content">
+                        <div class="line"></div>
                             <p>
                             Elektrikli araçlar sadece elektrik enerjisi ile hareket edebilen veya elektrik enerjisi desteği alan içten yanmalı motorlara sahip olan kara araçlarıdır. Çeşitli kategorilere ayrılır.
                             EV (Electric Vehicle): Sadece elektrik enerjisi ile tahrik edilen kara araçlarıdır.
@@ -113,6 +111,7 @@
                             
                         </div>
                         <div class="questions-content">
+                        <div class="line"></div>
                             <p>
                             C-Şarj üyesi olmak oldukça basit. Web sayfamızdaki üyelik butonuna tıklayarak ya da C-Şarj uygulamasını telefonunuza veya tabletinize  indirip, adımları takip ederek kolayca üyelik oluşturabilirsiniz.
                             </p>
@@ -124,6 +123,7 @@
                             
                         </div>
                         <div class="questions-content">
+                        <div class="line"></div>
                             <p>
                             İster cep telefonunuza yüklediğiniz C-Şarj uygulaması üzerinden isterseniz de üyelik kartınızı C-Şarj cihazı üzerinde bulunan RFID işaretine yaklaştırarak aracınızı şarj etmeye başlatabilirsiniz.
                             </p>
@@ -135,6 +135,7 @@
                             
                         </div>
                         <div class="questions-content">
+                        <div class="line"></div>
                             <p>
                             Şarj süreleri aracınızın bataryasının kapasitesine, doluluk oranına ve kullandığınız şarj ünitesinin enerji gücüne bağlı olarak hesaplanır. 
                             </p>
@@ -152,6 +153,7 @@
                         </div>
                     </div>
                     <div class="questions-item">
+                    <div class="line"></div>
                         <div class="questions-app">
                             <h3>Şarj ile ne kadar menzil kazanırım?</h3>
                             

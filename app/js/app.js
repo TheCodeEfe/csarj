@@ -41,13 +41,12 @@ $(document).on("focusout",".form_contact__box input",function(){
     let indexLabel = $(".form_contact__box input").index(this);
     let thisVal = $(this).val();
     if( thisVal.length > 0 ){
-        $(".form_contact__box .label").eq(indexLabel).css({
-            fontweight:" 400",
-            fontsize:" 12px",
-            color:" #07BEB8",
+        $(".form_contact__box label").eq(indexLabel).css({
+            fontWeight:" 400",
+            fontSize:" 12px",
             bottom:" 40px"
         })
     }else{
-        $(".form_contact__box .label").eq(indexLabel).removeAttr("style")
+        $(".form_contact__box label").eq(indexLabel).removeAttr("style")
     }
 });

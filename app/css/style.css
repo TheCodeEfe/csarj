@@ -1618,14 +1618,15 @@ header nav .menu--btn {
 .title-page::after {
   position: absolute;
   width: 100%;
-  height: 570px;
+  height: 470px;
   display: block;
   content: " ";
-  background: url("../img/svg/Stamp.svg");
+  background: url("../img/BG-Desktop.png");
   background-repeat: no-repeat;
-  right: 26px;
-  background-position: right;
-  top: -164%;
+  top: -110px;
+  right: 0;
+  background-position: center;
+  background-size: contain;
   z-index: -1;
 }
 .title-page--bg {
@@ -1689,8 +1690,9 @@ header nav .menu--btn {
   .title-page::after {
     max-width: 284px;
     width: 100%;
-    background-size: contain;
+    background-size: contain !important;
     right: 0px;
+    background: url("../img/svg/stamp.svg");
   }
   .title-page--title h1 {
     font-size: 32px;
@@ -1712,7 +1714,7 @@ header nav .menu--btn {
       -ms-flex-align: center;
           align-items: center;
 }
-.main-bg img {
+.main-bg > img {
   width: 588px !important;
   z-index: 1;
   border-radius: 5px;
@@ -1725,7 +1727,7 @@ header nav .menu--btn {
 }
 .main-bg--title {
   background: #fff;
-  padding: 64px 48px;
+  padding: 48px;
   -webkit-box-shadow: 0px 16px 32px rgba(0, 0, 0, 0.08);
           box-shadow: 0px 16px 32px rgba(0, 0, 0, 0.08);
   border-radius: 16px;
@@ -1734,19 +1736,19 @@ header nav .menu--btn {
   height: fit-content;
   margin-left: -5%;
   position: relative;
-  z-index: 111111;
+  z-index: 21;
   width: 100%;
 }
 .main-bg--title h3 {
   font-weight: 500;
   font-size: 28.43px;
   color: #0077B6;
+  margin-bottom: 8px;
 }
 .main-bg--title p {
   font-weight: 500;
   font-size: 16px;
   color: #43464C;
-  margin-top: 8px;
 }
 .main-bg--table table {
   margin-top: 8px;
@@ -1849,6 +1851,74 @@ header nav .menu--btn {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+  }
+}
+
+.popup {
+  position: fixed;
+  bottom: 24px;
+  width: 100%;
+  z-index: 21;
+}
+.popup-bg {
+  background: rgba(255, 255, 255, 0.96);
+  -webkit-box-shadow: 0px 16px 32px rgba(0, 0, 0, 0.08);
+          box-shadow: 0px 16px 32px rgba(0, 0, 0, 0.08);
+  -webkit-backdrop-filter: blur(52px);
+          backdrop-filter: blur(52px);
+  border-radius: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 16px 24px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.popup-bg > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.popup-bg > div img {
+  width: auto !important;
+  margin-right: 16px;
+}
+.popup-bg > div p {
+  font-weight: 400;
+  font-size: 14px;
+  color: #43464C;
+}
+.popup-bg > div p a {
+  text-decoration: underline !important;
+}
+@media (max-width: 39.9375em) {
+  .popup-bg {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .popup-bg > div {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .popup-bg > div p {
+    margin-top: 16px;
+    margin-bottom: 16px;
+  }
+  .popup-bg button {
+    width: 100%;
   }
 }
 
@@ -2268,6 +2338,7 @@ header nav .menu--btn {
   /* Safari and Chrome */
   appearance: none;
   position: relative;
+  outline: none;
   font-family: "Avenir Next";
   z-index: 1111;
 }
@@ -2323,6 +2394,18 @@ header nav .menu--btn {
   width: -moz-fit-content;
   width: fit-content;
   margin: 0 auto;
+}
+.contact_form__bg__left .form_contact .error input {
+  border-color: #FF0046 !important;
+}
+.contact_form__bg__left .form_contact .error label.error {
+  font-weight: 400;
+  font-size: 12px;
+  color: #FF0046;
+  margin-top: 8px;
+}
+.contact_form__bg__left .form_contact .error label.input-text {
+  color: #43464C !important;
 }
 .contact_form__bg__right {
   background: #FFFFFF;

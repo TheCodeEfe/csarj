@@ -27,7 +27,7 @@
                 <img src="app/img/Hizmetler.png" alt="">
                 <div class="main-bg--title">
                     <h3>Bireysel Kurulumlar</h3>
-                    <p class="main-bg--dic">Eviniz, iş yeriniz, yazlığınız veya dilediğiniz herhangi bir noktaya ev tipi </br>cihazınızın kurulumunu gerçekleştiriyoruz.</p>
+                    <p class="main-bg--dic">Eviniz, iş yeriniz, yazlığınız veya dilediğiniz herhangi bir noktaya ev tipi cihazınızın kurulumunu gerçekleştiriyoruz.</p>
                     <button class="btn"><a href="?pg=single-services&title=bireysel-kurulumlar"><span>Hemen İncele</span></a></button>
                 </div>
             </div>
@@ -97,7 +97,7 @@
                 </div>
                 <div class="contact-row-title">
                     <h4>Bizimle İletişime Geçin</h4>
-                    <p>C-Şarj kurulumu yaptırmak için başvuru formunu <br>doldurarak bizimle iletişime geçebilirsiniz.</p>
+                    <p>C-Şarj kurulumu yaptırmak için başvuru formunu doldurarak bizimle iletişime geçebilirsiniz.</p>
                     <button class="btn  btn-white"><a href="?pg=contact-us">Şimdi Başvur</a></button>
                 </div>
             </div>

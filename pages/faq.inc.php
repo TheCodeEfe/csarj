@@ -32,6 +32,7 @@
                             
                         </div>
                         <div class="questions-content">
+                            <div class="line"></div>
                             <p>
                             Elektrikli araçlar sadece elektrik enerjisi ile hareket edebilen veya elektrik enerjisi desteği alan içten yanmalı motorlara sahip olan kara araçlarıdır. Çeşitli kategorilere ayrılır.
                             <ul>
@@ -49,6 +50,7 @@
                             
                         </div>
                         <div class="questions-content">
+                        <div class="line"></div>
                             <p>
                             C-Şarj üyesi olmak oldukça basit. Web sayfamızdaki üyelik butonuna tıklayarak ya da C-Şarj uygulamasını telefonunuza veya tabletinize  indirip, adımları takip ederek kolayca üyelik oluşturabilirsiniz.
                             </p>
@@ -60,6 +62,7 @@
                             
                         </div>
                         <div class="questions-content">
+                        <div class="line"></div>
                             <p>
                             İster cep telefonunuza yüklediğiniz C-Şarj uygulaması üzerinden isterseniz de üyelik kartınızı C-Şarj cihazı üzerinde bulunan RFID işaretine yaklaştırarak aracınızı şarj etmeye başlatabilirsiniz.
                             </p>
@@ -71,6 +74,7 @@
                             
                         </div>
                         <div class="questions-content">
+                        <div class="line"></div>
                             <p>
                             Şarj süreleri aracınızın bataryasının kapasitesine, doluluk oranına ve kullandığınız şarj ünitesinin enerji gücüne bağlı olarak hesaplanır. 
                             </p>
@@ -93,6 +97,7 @@
                             
                         </div>
                         <div class="questions-content">
+                        <div class="line"></div>
                             <p>
                                 Aracınızın 100 kilometredeki tüketim verisine bağlı olarak depolanan enerji miktarını, bu veriye bölerek kazanılan menzili bulabiliriz. 
                             </p>
@@ -111,6 +116,7 @@
                             
                         </div>
                         <div class="questions-content">
+                        <div class="line"></div>
                             <p>Üyelerimiz için ücretlendirmeler, C-Şarj'ın özel fiyatları ile cihazlardan aktarılan enerji miktarına göre kilowatt cinsinden hesaplanır. EPDK enerji birim fiyatları üzerinden tüketilen enerjinin tarife karşılığı ve sağlanmış olan cihaz hizmetinin güç cinsine göre kullanım bedelinin toplamından oluşur.
 
                             Üyelerimiz, C-Şarj uygulaması içinde sadece kendilerinin sisteme tanımlayacakları kredi kartı bilgileri ile kolayca ödeme yapabilirler.
@@ -125,6 +131,7 @@
                             
                         </div>
                         <div class="questions-content">
+                        <div class="line"></div>
                             <p>Aracınızı C-Şarj logosu taşıyan C-Şarj ünitelerinde veya iş ortağımız olan firmaların cihazlarını kullanarak şarj edebilirsiniz. 
 
                             C-Şarj üniteleri;<br>
@@ -140,6 +147,7 @@
                             
                         </div>
                         <div class="questions-content">
+                        <div class="line"></div>
                             <p>
                                 C-Şarj uygulaması üzerinden seyahat programınız ve güzergahınız üzerindeki dinlenme planınıza göre kolayca rezervasyon yapabilirsiniz.
                              </p>

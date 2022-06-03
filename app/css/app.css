@@ -1,50 +1,98 @@
-header nav .menu--nav > ul > li ul.menu--nav--ul{
+header nav .menu--nav>ul>li ul.menu--nav--ul {
     top: 43px;
     z-index: 22;
 }
 
 .container p a {
-    color: #07BEB8!important;
-}
-.privacy p {
-line-height: 24px;
-font-weight: 400;
+    color: #07BEB8 !important;
 }
 
-.inputValid{
-    font-weight: 400!important;
-    font-size: 12px!important;
-    color: #07BEB8!important;
-    bottom: 40px!important;
+.privacy p {
+    line-height: 24px;
+    font-weight: 400;
 }
+
+.privacy strong,
+b {
+    color: #43464C;
+}
+
+.inputValid {
+    font-weight: 400 !important;
+    font-size: 12px !important;
+    color: #07BEB8 !important;
+    bottom: 40px !important;
+}
+
 .main-bg--title {
     z-index: 21;
 }
+
 .main-bg img {
     border-radius: 16px;
 }
-.ContactMap iframe {
-    width:588px;
-    height:440px
-}
+
+
+
 @media (max-width: 39.9375em) {
-    .ContactMap iframe {
-        width: 375px;
+    .ContactMap {
+        min-width: 100%;
+        max-width: 390px; 
+        height: 200px;  
     }
-    .download-app-links a div span
-    {
+    #map {
+
+        flex: 1;
+        width: 100%;
+        max-width: 390px;
+        height: 200px;  
+    }
+
+
+    .download-app-links a div span {
         font-size: 14px;
     }
+
     .main-bg img {
         border-radius: unset;
     }
+
     .header {
         backdrop-filter: blur(12px);
         border-radius: 0px 0px 16px 16px;
     }
- }
+}
 
- .questions .left p {
-     text-align: center;
- }
+.questions .left p {
+    text-align: center;
+}
 
+.contact-row-title p {
+    max-width: 380px;
+}
+
+.font15 p,
+.font15 ul {
+    font-size: 15px;
+}
+
+
+.ContactMap {
+    width: 588px;
+    height: 440px;
+    display: flex;
+    flex-direction: column;
+}
+
+#map {
+
+    flex: 1;
+    width: 588px;
+    height: 440px;
+
+}
+
+
+.firstHeading {
+    color: black;
+}

@@ -25,7 +25,7 @@
         <div class="container">
             <div class="main-bg">
                 <img src="app/img/Img.png" alt="">
-                <div class="main-bg--title">
+                <div class="main-bg--title font15">
                     <h3>Elektrikli Araçlar</h3>
                     <p class="main-bg--dic">Elektrikli araçlar sadece elektrik enerjisi ile hareket edebilen veya elektrik enerjisi desteği alan içten yanmalı motorlara sahip olan kara araçlarıdır. Çeşitli kategorilere ayrılır. </p>
                     <ul>
@@ -153,7 +153,7 @@
                 </div>
                 <div class="contact-row-title">
                     <h4>Bizimle İletişime Geçin</h4>
-                    <p>C-Şarj kurulumu yaptırmak için başvuru formunu <br>doldurarak bizimle iletişime geçebilirsiniz.</p>
+                    <p>C-Şarj kurulumu yaptırmak için başvuru formunu doldurarak bizimle iletişime geçebilirsiniz.</p>
                     <button class="btn  btn-white"><a href="?pg=contact-us">Şimdi Başvur</a></button>
                 </div>
             </div>

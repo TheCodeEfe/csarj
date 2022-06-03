@@ -76,7 +76,7 @@
                 </div>
                 <div class="contact-row-title">
                     <h4>Bizimle İletişime Geçin</h4>
-                    <p>C-Şarj kurulumu yaptırmak için başvuru formunu <br>doldurarak bizimle iletişime geçebilirsiniz.</p>
+                    <p>C-Şarj kurulumu yaptırmak için başvuru formunu doldurarak bizimle iletişime geçebilirsiniz.</p>
                     <button class="btn  btn-white"><a href="?pg=contact-us">Şimdi Başvur</a></button>
                 </div>
             </div>
