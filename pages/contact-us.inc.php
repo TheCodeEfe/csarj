@@ -24,10 +24,9 @@
     <section class="main">
         <div class="container">
             <div class="main-bg">
-                <!-- <img src="app/img/map.png" alt=""> -->
-                <div class="map" style="width:588px;height:440px">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6356125.1194824185!2d28.13231255868141!3d38.933651227550506!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab77b9bb229b9%3A0xa7e8daf088fcd5a0!2sDetay%20G%C4%B1da!5e0!3m2!1str!2str!4v1654087466369!5m2!1str!2str" width="588" height="440" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </div>
+                    <!-- <img src="app/img/map.png" alt=""> -->
+                        <div id="map" class="map" style="width:588px;height:440px"></div>
+          
                 <div class="main-bg--title">
                     <ul class="main__contact_us">
                         <li>
@@ -92,5 +91,163 @@
         </div>
     </section>
 
-    
+
+
+
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBx3QlwbBWxEip1KMZO7k-neya36_2cG8o&callback=initMap"></script>
     <? include_once __DIR__."/static/footer.inc.php"; ?>
+
+
+    <script>
+
+    let map;
+    let markersArray ;
+    let marker;
+    //let infoWindow;
+    var geocoder;
+
+
+
+    function initMap() {
+        geocoder = new google.maps.Geocoder();
+        map = new google.maps.Map(document.getElementById('map'),
+            {
+                //center: {lat: 41.208277, lng: 28.957777},
+                center:{lat: 41.0342747217909, lng: 28.991538061372125},
+                zoom: 11.5
+               
+            });
+
+
+        map.addListener('click', function(e) {
+            //addMarker(e.latLng);
+        });
+
+
+
+
+    
+    }
+
+ 
+    
+
+
+    function addMarker(latLng,Title) {
+        if (marker && marker.setMap) {
+            marker.setMap(null);
+        }
+
+		/*var infowindow = new google.maps.InfoWindow({
+		 content: "Add your popup content here 1",
+		 title: "Uluru (Ayers Rock)"
+		 });*/
+
+        //console.log(latLng);
+        marker = new google.maps.Marker({
+            position: latLng,
+            draggable: true,
+            title: "Title for marker",
+            map: map,
+            labelContent: "ABCDxx",
+            labelAnchor: new google.maps.Point(15, 65),
+            labelClass: "labels", // the CSS class for the label
+            labelInBackground: false,
+            label: {
+                fontSize: "8pt",
+                text: Title
+            },
+            optimized: false,
+
+
+        });
+       
+        markersArray = marker;
+       
+
+        var enlem  = marker.getPosition().lat();
+        var boylam = marker.getPosition().lng();
+
+
+
+    
+
+
+    }
+
+
+
+
+
+    
+
+
+
+    function showLocation(position) {
+        var latitude = position.coords.latitude;
+        var longitude = position.coords.longitude;
+        console.log(latitude+"-"+longitude);
+        //alert("11dsadsadsa");
+
+        var latLng = {lat: latitude, lng:longitude};
+        var marker = new google.maps.Marker({
+            position: latLng,
+            map: map,    
+            title: 'Csarj',
+            optimized:false,
+            label: {
+                fontSize: "14px",
+                text: "Csarj"
+            },
+            labelContent : "Csarj Cont",
+            labelClass: "labels",
+            labelInBackground: true
+
+        });
+
+        const contentString =
+            '<div id="content">' +
+            '<div id="siteNotice">' +
+            "</div>" +
+            '<h2 id="firstHeading" class="firstHeading">Csarj</h2>' +
+            '<div id="bodyContent">' +"</div>" +
+            "</div>";
+
+            const infowindow = new google.maps.InfoWindow({
+            content: contentString,
+        });   
+
+        marker.addListener("click", () => {
+            infowindow.open({
+            anchor: marker,
+            map,
+            shouldFocus: false,
+            });
+        });
+    }
+    function errorHandler(err) {
+        if(err.code == 1) {
+            alert("Error: Access is denied!");
+        } else if( err.code == 2) {
+            alert("Error: Position is unavailable!");
+        }
+    }
+    function getLocation(){
+        if(navigator.geolocation){
+            // timeout at 60000 milliseconds (60 seconds)
+            var options = {timeout:6000};
+            navigator.geolocation.getCurrentPosition
+            (showLocation, errorHandler, options);
+        } else{
+            alert("Sorry, browser does not support geolocation!");
+        }
+    }
+    getLocation();
+
+
+
+
+
+    
+
+</script>

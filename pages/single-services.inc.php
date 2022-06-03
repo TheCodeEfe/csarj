@@ -28,7 +28,7 @@
                 <h3>Bireysel Kurulumlar</h3>
                 <p class="main-bg--dic">Eviniz, iş yeriniz, yazlığınız veya dilediğiniz herhangi bir noktaya ev
                     tipi</br> cihazınızın kurulumunu gerçekleştiriyoruz.</p>
-                <button class="btn"><a href=""><span>Hemen İncele</span></a></button>
+                <button class="btn"><a href=""><span>Hemen Başvur</span></a></button>
             </div>
         </div>
     </div>
@@ -42,7 +42,7 @@
             <div class="contact-row-title">
                 <h4>Bizimle İletişime Geçin</h4>
                 <p>C-Şarj kurulumu yaptırmak için başvuru formunu <br>doldurarak bizimle iletişime geçebilirsiniz.</p>
-                <button class="btn  btn-white"><a href="?pg=contact-us">Şimdi Başvur</a></button>
+                <button class="btn  btn-white"><a href="?pg=contact-us">Hemen Başvur</a></button>
             </div>
         </div>
     </div>
@@ -72,7 +72,7 @@
                 <h3>Kurumsal Kurulumlar</h3>
                 <p class="main-bg--dic">Eviniz, iş yeriniz, yazlığınız veya dilediğiniz herhangi bir noktaya ev
                     tipi</br> cihazınızın kurulumunu gerçekleştiriyoruz.</p>
-                <button class="btn"><a href=""><span>Hemen İncele</span></a></button>
+                <button class="btn"><a href=""><span>Hemen Başvur</span></a></button>
             </div>
         </div>
     </div>
@@ -86,7 +86,7 @@
             <div class="contact-row-title">
                 <h4>Bizimle İletişime Geçin</h4>
                 <p>C-Şarj kurulumu yaptırmak için başvuru formunu<br>doldurarak bizimle iletişime geçebilirsiniz.</p>
-                <button class="btn  btn-white"><a href="?pg=contact-us">Şimdi Başvur</a></button>
+                <button class="btn  btn-white"><a href="?pg=contact-us">Hemen Başvur</a></button>
             </div>
         </div>
     </div>
@@ -127,7 +127,7 @@
                             <p>Özel otoparklarda verilen park, temizlik ve kuaför hizmetlerinin yanı sıra elektrikli araç şarj hizmeti de sunmak için kurulum sağlıyoruz.</p>
                         </li>
                     </ul>
-                <button class="btn"><a href=""><span>Hemen İncele</span></a></button>
+                <button class="btn"><a href=""><span>Hemen Başvur</span></a></button>
             </div>
         </div>
     </div>
@@ -141,7 +141,7 @@
             <div class="contact-row-title">
                 <h4>Bizimle İletişime Geçin</h4>
                 <p>C-Şarj kurulumu yaptırmak için başvuru formunu <br>doldurarak bizimle iletişime geçebilirsiniz.</p>
-                <button class="btn  btn-white"><a href="?pg=contact-us">Şimdi Başvur</a></button>
+                <button class="btn  btn-white"><a href="?pg=contact-us">Hemen Başvur</a></button>
             </div>
         </div>
     </div>
@@ -174,7 +174,7 @@
             <div class="main-bg--title">
                 <h3>Filo Anlaşmaları</h3>
                 <p class="main-bg--dic">Araç filolarınız yeni güne enerji dolu başlasın diye fabrikalarınız ve dağıtım depolarınıza, özel filo imkanlarımız sayesinde ücretsiz olarak C-Şarj cihazlarının kurulumunu sağlıyoruz.</p>
-                <button class="btn"><a href=""><span>Hemen İncele</span></a></button>
+                <button class="btn"><a href=""><span>Hemen Başvur</span></a></button>
             </div>
         </div>
     </div>
@@ -188,7 +188,7 @@
             <div class="contact-row-title">
                 <h4>Bizimle İletişime Geçin</h4>
                 <p>C-Şarj kurulumu yaptırmak için başvuru formunu <br>doldurarak bizimle iletişime geçebilirsiniz.</p>
-                <button class="btn  btn-white"><a href="?pg=contact-us">Şimdi Başvur</a></button>
+                <button class="btn  btn-white"><a href="?pg=contact-us">Hemen Başvur</a></button>
             </div>
         </div>
     </div>

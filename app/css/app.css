@@ -1,4 +1,4 @@
-header nav .menu--nav > ul > li ul.menu--nav--ul{
+header nav .menu--nav>ul>li ul.menu--nav--ul {
     top: 43px;
     z-index: 22;
 }
@@ -7,9 +7,41 @@ header nav .menu--nav > ul > li ul.menu--nav--ul{
     color: #07BEB8!important;
 }
 
-.inputValid{
+.inputValid {
     font-weight: 400!important;
     font-size: 12px!important;
     color: #07BEB8!important;
     bottom: 40px!important;
+}
+
+.main-bg--title p {
+    font-size: 14px!important;
+}
+
+.container p strong {
+    color: #575757;
+}
+
+.menu--logo a img {
+    height: 40px;
+}
+
+@media screen and (max-width:640px) {
+    .map {
+        width: 100% !important;
+    }
+}
+
+#map {
+    height: 100%;
+}
+
+.labels {
+    color: white;
+    background-color: red;
+    font-family: "Lucida Grande", "Arial", sans-serif;
+    font-size: 10px;
+    text-align: center;
+    width: 30px;
+    white-space: nowrap;
 }
