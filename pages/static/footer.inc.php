@@ -32,7 +32,7 @@
                     </div>
                     <ul class="footer-menu">
                         <li><a href="?pg=about"><span>Biz Kimiz?</span></a></li>
-                        <li><a href="?pg=blog"><span>Haberler</span></a></li>
+                        
                         <li><a href="?pg=contact-us"><span>İletişim</span></a></li>
                     </ul>
                 </div>
@@ -56,7 +56,7 @@
                     </div>
                     <ul class="footer-menu">
                         <li><a href="?pg=faq"><span>Sıkça Sorulan Sorular</span></a></li>
-                        <li><a href=""><span>İstasyon Haritası</span></a></li>
+                        
                         <li><a href="?pg=info"><span>Genel Bilgiler</span></a></li>
                         <li><a href="?pg=reservation"><span>Rezervasyon</span></a></li>
                         <li><a href="?pg=member-detail"><span>Üyelik</span></a></li>
@@ -79,37 +79,7 @@
     <!-- jQuery first-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" type="text/javascript"></script>
     <script src="app/js/app.js" type="text/javascript"></script>
-    <script  type="text/javascript">
-    $(".menu--btn").click(function(){
-        $(".header-mobile").toggleClass("active");
-        $(this).toggleClass("menu--btnimg")
-    });
-    $(document).ready(function () {
-          $(document).on('click', '.questions-app', function () {
-            var open = $(this).parent().hasClass('open');
-            if (open) {
-              $(this).siblings('.questions-content').slideUp(500, function () {
-                $(this).parent().removeClass('open');
-              });
-            } else {
-              $(this).siblings('.questions-content').slideDown(500, function () {
-                $(this).parent().addClass('open');
-              });
-            }
-          });
-    });
-    $(".head").click(function () {
-        if(window.matchMedia("(max-width: 767px)").matches){
-            $(this).parent("div").addClass("active");
-            $(this).parent("div").find("ul").toggleClass("active").slideToggle(500);
-        } else{
-    }
-    });
-    $(".menu--nav > ul > li > a").click(function(){
-        $(".menu--nav > ul > li").removeClass("active");
-        $(this).next("ul").toggleClass("active").slideToggle(500);
-    });
-    </script>
+
 
 
 <script>
