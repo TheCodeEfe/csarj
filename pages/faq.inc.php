@@ -29,7 +29,10 @@
                 <div class="questions-item">
                         <div class="questions-app">
                             <h3>Elektrikli araç nedir?</h3>
-                            
+                            <div class="questions-app-arrows">
+                                <span class="arrowone"></span>
+                                <span class="arrowtwo"></span>
+                            </div>
                         </div>
                         <div class="questions-content">
                             <div class="line"></div>
@@ -47,7 +50,10 @@
                     <div class="questions-item">
                         <div class="questions-app">
                             <h3>Nasıl C-Şarj üyesi olurum?</h3>
-                            
+                            <div class="questions-app-arrows">
+                                <span class="arrowone"></span>
+                                <span class="arrowtwo"></span>
+                            </div>
                         </div>
                         <div class="questions-content">
                         <div class="line"></div>
@@ -59,7 +65,10 @@
                     <div class="questions-item">
                         <div class="questions-app">
                             <h3>Aracımı şarj etmeyi nasıl başlatabilirim?</h3>
-                            
+                            <div class="questions-app-arrows">
+                                <span class="arrowone"></span>
+                                <span class="arrowtwo"></span>
+                            </div>
                         </div>
                         <div class="questions-content">
                         <div class="line"></div>
@@ -71,7 +80,10 @@
                     <div class="questions-item">
                         <div class="questions-app">
                             <h3>Şarjı ne kadar sürede biter?</h3>
-                            
+                            <div class="questions-app-arrows">
+                                <span class="arrowone"></span>
+                                <span class="arrowtwo"></span>
+                            </div>
                         </div>
                         <div class="questions-content">
                         <div class="line"></div>
@@ -94,7 +106,10 @@
                     <div class="questions-item">
                         <div class="questions-app">
                             <h3>Şarj ile ne kadar menzil kazanırım?</h3>
-                            
+                            <div class="questions-app-arrows">
+                                <span class="arrowone"></span>
+                                <span class="arrowtwo"></span>
+                            </div>
                         </div>
                         <div class="questions-content">
                         <div class="line"></div>
@@ -113,7 +128,10 @@
                     <div class="questions-item">
                         <div class="questions-app">
                             <h3>Ücretlendirme ve ödeme nasıl yapılır?</h3>
-                            
+                            <div class="questions-app-arrows">
+                                <span class="arrowone"></span>
+                                <span class="arrowtwo"></span>
+                            </div>
                         </div>
                         <div class="questions-content">
                         <div class="line"></div>
@@ -128,23 +146,29 @@
                     <div class="questions-item">
                         <div class="questions-app">
                             <h3>Aracımı nerelerde şarj edebilirim?</h3>
-                            
+                            <div class="questions-app-arrows">
+                                <span class="arrowone"></span>
+                                <span class="arrowtwo"></span>
+                            </div>
                         </div>
                         <div class="questions-content">
                         <div class="line"></div>
                             <p>Aracınızı C-Şarj logosu taşıyan C-Şarj ünitelerinde veya iş ortağımız olan firmaların cihazlarını kullanarak şarj edebilirsiniz. 
 
                             C-Şarj üniteleri;<br>
-                            11 kW – AC,<br>
-                            22kW – AC,<br>
-                            50kW – DC olarak aracınızın invertör imkanlarına göre enerji sağlayacaktır.
+                            11 kW - AC,<br>
+                            22kW - AC,<br>
+                            50kW - DC olarak aracınızın invertör imkanlarına göre enerji sağlayacaktır.
                             </p>
                         </div>
                     </div>
                     <div class="questions-item">
                         <div class="questions-app">
                             <h3>Nasıl rezervasyon yapılır?</h3>
-                            
+                            <div class="questions-app-arrows">
+                                <span class="arrowone"></span>
+                                <span class="arrowtwo"></span>
+                            </div>
                         </div>
                         <div class="questions-content">
                         <div class="line"></div>

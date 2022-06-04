@@ -24,12 +24,37 @@ header{
                 &--nav{
                     display: block;
                     > ul{
+                        li.menu--nav-ul{
+                            >a{
+                                &::after{
+                                    content: ' ';
+                                    height: 100%;
+                                    display: block;
+                                    background: url('/app/img/svg/arrow\ bottom\ .svg');
+                                    width: 16px;
+                                    right: 0;
+                                    top: 50%;
+                                    background-repeat: no-repeat;
+                                    position: absolute;
+                                    transform: translate(-50%, -50%);
+                                    background-position: center;
+                                    transition: background ease-in-out 300ms;
+                                    -webkit-transition: background ease-in-out 300ms;
+                                    -moz-transition: background ease-in-out 300ms;
+                                    -ms-transition: background ease-in-out 300ms;
+                                    -o-transition: background ease-in-out 300ms;
+                                }
+                            }
+                        }
                         > li{
                             padding: 24px 0px;
                             margin: 0;
                             border-bottom: 2px solid #FFFFFF;
                             display: flex;
                             flex-direction: column;
+                            &:nth-last-child(1){
+                                border: none;
+                            }
                             > a{
                                 flex-direction: row;
                                 align-items: center;
@@ -214,6 +239,61 @@ header{
                                 font-weight: 600;
                                 color: #43464C;
                                 text-transform: uppercase;
+                            }
+                        }
+                        &:hover{
+                            ul.menu--nav--ul{
+                                opacity: 1;
+                                visibility: visible;
+                            }
+                            >a{
+                                span{
+                                    color: #07BEB8;
+                                }
+                                
+                            }
+                        }
+                        ul.menu--nav--ul{
+                            transition: all 300ms ease-in-out;
+                            opacity: 0;
+                            visibility: hidden;
+                            position: absolute;
+                            top:61px;
+                            padding: 24px;
+                            background: #fff;
+                            border-radius: 0px 32px 16px 16px;
+                            width: 100%;
+                            min-width: 183px;
+                            left: -32px;
+                            -webkit-transition: all 300ms ease-in-out;
+                            -moz-transition: all 300ms ease-in-out;
+                            -ms-transition: all 300ms ease-in-out;
+                            -o-transition: all 300ms ease-in-out;
+                            li{
+                                display: block;
+                                padding: 16px 0px;
+                                border-bottom: 1px solid #F2F5F8;
+                                &:nth-child(1){
+                                    padding-top: 0px;
+                                }
+                                &:nth-last-child(1){
+                                    padding-bottom:0px ;
+                                    border: none;
+                                }
+                                a{
+                                    span{
+                                        font-weight: 500;
+                                        font-size: 14px;
+                                        color: #43464C;
+                                    }
+                                }
+                                &:hover{
+                                    a{
+                                        span{
+                                            color: #07BEB8;
+                                        }
+                                    }
+                                }
                             }
                         }
                     }

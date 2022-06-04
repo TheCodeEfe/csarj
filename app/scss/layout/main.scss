@@ -88,7 +88,7 @@
     &-bg{
         display: flex;
         align-items: center;
-        img{
+        > img{
             width: 588px  !important;
             z-index: 1;
             border-radius: 5px;

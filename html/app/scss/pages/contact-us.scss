@@ -59,7 +59,7 @@
                         font-size: 16px;
                         border: none;
                         border-bottom: 1px solid #DFE1E6;
-                        &:focus + label{
+                        &:focus + label, &:valid{
                             font-weight: 400;
                             font-size: 12px;
                             color: #07BEB8;
@@ -97,6 +97,8 @@
                         -webkit-appearance:none; /* Safari and Chrome */
                         appearance:none;
                         position: relative;
+                        outline: none;
+                        font-family: "Avenir Next";
                         z-index: 1111;
                         &:focus{
                             border-bottom-color: #07BEB8;
@@ -147,6 +149,20 @@
                     button{
                         width: fit-content;
                         margin: 0 auto;
+                    }
+                }
+                .error{
+                    input{
+                        border-color: #FF0046 !important;
+                    }
+                    label.error{
+                        font-weight: 400;
+                        font-size: 12px;
+                        color: #FF0046;
+                        margin-top: 8px;
+                    }
+                    label.input-text{
+                        color: #43464C !important;
                     }
                 }
             }

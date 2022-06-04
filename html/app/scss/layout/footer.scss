@@ -19,7 +19,7 @@
         justify-content: space-between;
         &-left{
             width: 100%;
-            max-width: 290px;
+            max-width: 334px;
             text-align: center;
             img.logo-footer{
                 width: 128px !important;
@@ -122,6 +122,11 @@
                                 font-weight: 500;
                                 font-size: 16px;
                                 color: #43464C;
+                            }
+                            &:hover{
+                                span{
+                                    color: #07BEB8;
+                                }
                             }
                         }
                     }
@@ -258,7 +263,7 @@
                             content: ' ';
                             height: 100%;
                             display: block;
-                            background: url('/app/img/svg/arrow.svg');
+                            background: url('/app/img/svg/arrow\ bottom\ .svg');
                             width: 16px;
                             right: 0;
                             top: 50%;

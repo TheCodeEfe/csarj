@@ -33,7 +33,7 @@ $(".menu--nav > ul > li > a").click(function(){
 $(window).on('scroll',  function(){
     if(window.matchMedia("(max-width: 767px)").matches){}
     else{
-        var top = -164 + $(window).scrollTop() / 9;
+        var top = -164 + $(window).scrollTop() / 7;
  $(".site-about-right img").css('transform', 'translateY( ' + top + 'px)');
     }
 });

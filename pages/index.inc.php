@@ -92,6 +92,10 @@
                     <div class="questions-item">
                         <div class="questions-app">
                             <h3>Elektrikli araç nedir?</h3>
+                            <div class="questions-app-arrows">
+                                <span class="arrowone"></span>
+                                <span class="arrowtwo"></span>
+                            </div>
                             
                         </div>
                         <div class="questions-content">
@@ -108,7 +112,10 @@
                     <div class="questions-item">
                         <div class="questions-app">
                             <h3>Nasıl C-Şarj üyesi olurum?</h3>
-                            
+                            <div class="questions-app-arrows">
+                                <span class="arrowone"></span>
+                                <span class="arrowtwo"></span>
+                            </div>
                         </div>
                         <div class="questions-content">
                         <div class="line"></div>
@@ -120,7 +127,10 @@
                     <div class="questions-item">
                         <div class="questions-app">
                             <h3>Aracımı şarj etmeyi nasıl başlatabilirim?</h3>
-                            
+                            <div class="questions-app-arrows">
+                                <span class="arrowone"></span>
+                                <span class="arrowtwo"></span>
+                            </div>
                         </div>
                         <div class="questions-content">
                         <div class="line"></div>
@@ -132,6 +142,10 @@
                     <div class="questions-item">
                         <div class="questions-app">
                             <h3>Şarjı ne kadar sürede biter?</h3>
+                            <div class="questions-app-arrows">
+                                <span class="arrowone"></span>
+                                <span class="arrowtwo"></span>
+                            </div>
                             
                         </div>
                         <div class="questions-content">
@@ -156,6 +170,10 @@
                     <div class="line"></div>
                         <div class="questions-app">
                             <h3>Şarj ile ne kadar menzil kazanırım?</h3>
+                            <div class="questions-app-arrows">
+                                <span class="arrowone"></span>
+                                <span class="arrowtwo"></span>
+                            </div>
                             
                         </div>
                         <div class="questions-content">
