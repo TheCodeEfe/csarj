@@ -72,6 +72,9 @@
             right: 0px;
             background: url("../img/svg/stamp.svg");
         }
+        &--bread{
+            justify-content: flex-start;
+        }
         &--title{
             h1{
                 font-size: 32px;
@@ -95,6 +98,11 @@
             display: block;
             width: 100%;
             position: relative;
+            border-radius: 16px;
+            -webkit-border-radius: 16px;
+            -moz-border-radius: 16px;
+            -ms-border-radius: 16px;
+            -o-border-radius: 16px;
         }
         &--bread{
             a:hover{
@@ -176,6 +184,7 @@
                 }
             }
         }
+
     }
     &-left{
         flex-direction: row-reverse;
@@ -188,6 +197,7 @@
         margin-top: 16px;
         .container{
             max-width: 100% !important;
+            padding: 0px !important;
         }
         &-bg{
             flex-direction: column;
@@ -212,10 +222,19 @@
                     font-weight: 500;
                     font-size: 16px;
                 }
+                button{
+                    width: 100%;
+                }
+            }
+            ul.main__contact_us{
+            margin-left: 0px;
             }
         }
         &-left{
             flex-direction: column;
+            &--title{
+                margin-right: 0px;
+            }
         }
     }
 }

@@ -24,7 +24,7 @@
     <section class="main">
         <div class="container">
             <div class="main-bg">
-                <img src="app/img/about.png" alt="">
+                <img src="app/img/Hakkımızda.png" alt="">
                 <div class="main-bg--title">
                     <h3>C-Şarj</h3>
                     <p class="main-bg--dic">C-Şarj olarak, Türkiye’de dört farklı kolda enerji dolu hizmetler sunuyoruz.</br>

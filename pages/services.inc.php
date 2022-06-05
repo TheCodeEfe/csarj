@@ -24,7 +24,7 @@
     <section class="main"> 
         <div class="container">
             <div class="main-bg">
-                <img src="app/img/Hizmetler.png" alt="">
+                <img src="app/img/hizmetlerimiz/one.png" alt="">
                 <div class="main-bg--title">
                     <h3>Bireysel Kurulumlar</h3>
                     <p class="main-bg--dic">Eviniz, iş yeriniz, yazlığınız veya dilediğiniz herhangi bir noktaya ev tipi cihazınızın kurulumunu gerçekleştiriyoruz.</p>
@@ -36,7 +36,7 @@
     <section class="main">
         <div class="container">
             <div class="main-bg main-left">
-                <img src="app/img/Hizmetler-1.png" alt="">
+                <img src="app/img/hizmetlerimiz/four.png" alt="">
                 <div class="main-bg--title main-left--title">
                     <h3>Kurumsal Kurulumlar</h3>
                     <ul>
@@ -58,7 +58,7 @@
     <section class="main">
         <div class="container">
             <div class="main-bg">
-                <img src="app/img/Hizmetler-2.png" alt="">
+                <img src="app/img/hizmetlerimiz/tree.png" alt="">
                 <div class="main-bg--title">
                     <h3>İş Ortaklığı</h3>
                     <ul>
@@ -80,7 +80,7 @@
     <section class="main">
         <div class="container">
             <div class="main-bg main-left">
-                <img src="app/img/Hizmetler-3.png" alt="">
+                <img src="app/img/hizmetlerimiz/two.png" alt="">
                 <div class="main-bg--title main-left--title">
                     <h3>Filo Anlaşmaları</h3>
                     <p class="main-bg--dic">Araç filolarınız yeni güne enerji dolu başlasın diye fabrikalarınız ve dağıtım depolarınıza, özel filo imkanlarımız sayesinde ücretsiz olarak C-Şarj cihazlarının kurulumunu sağlıyoruz.</p>

@@ -2,8 +2,7 @@
 @use "../util" as *;
 
 header{
-    nav.header-mobile{
-        
+    nav.header-mobile{       
         display: none;
         @include breakpoint-down(small) {
             display: block;

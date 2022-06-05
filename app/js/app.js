@@ -2,6 +2,7 @@
 $(".menu--btn").click(function(){
     $(".header-mobile").toggleClass("active");
     $(this).toggleClass("menu--btnimg");
+    $('body').toggleClass('overflow-none');
 });
 $(document).ready(function () {
       $(document).on('click', '.questions-app', function () {
@@ -50,3 +51,54 @@ $(document).on("focusout",".form_contact__box input",function(){
         $(".form_contact__box label").eq(indexLabel).removeAttr("style")
     }
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

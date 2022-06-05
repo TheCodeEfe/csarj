@@ -24,7 +24,7 @@
     <section class="main">
         <div class="container">
             <div class="main-bg">
-                <img src="app/img/Img.png" alt="">
+                <img src="app/img/info/two.png" alt="">
                 <div class="main-bg--title font15">
                     <h3>Elektrikli Araçlar</h3>
                     <p class="main-bg--dic">Elektrikli araçlar sadece elektrik enerjisi ile hareket edebilen veya elektrik enerjisi desteği alan içten yanmalı motorlara sahip olan kara araçlarıdır. Çeşitli kategorilere ayrılır. </p>
@@ -52,7 +52,7 @@
     <section class="main">
         <div class="container">
             <div class="main-bg main-left">
-                <img src="app/img/img-1.png" alt="">
+                <img src="app/img/info/five.png" alt="">
                 <div class="main-bg--title main-left--title">
                     <h3>Bataryalar
                     </h3>
@@ -64,7 +64,7 @@
     <section class="main">
         <div class="container">
             <div class="main-bg">
-                <img src="app/img/img-2.png" alt="">
+                <img src="app/img/info/six.png" alt="">
                 <div class="main-bg--title">
                     <h3>Şarj Bilgileri</h3>
                     <p class="main-bg--dic">Elektrik enerjisi iki şekilde tanımlanır; </p>
@@ -83,7 +83,7 @@
     <section class="main">
         <div class="container">
             <div class="main-bg main-left">
-                <img src="app/img/img-3.png" alt="">
+                <img src="app/img/info/seven.png" alt="">
                 <div class="main-bg--title main-left--title">
                     <h3>Şarj Üniteleri</h3>
                     <p class="main-bg--dic">Şarj üniteleri aşağıdaki şekilde hizmet vermektedir. </p>
@@ -113,7 +113,7 @@
     <section class="main">
         <div class="container">
             <div class="main-bg">
-                <img src="app/img/Img-4.png" alt="">
+                <img src="app/img/info/one.png" alt="">
                 <div class="main-bg--title">
                     <h3>Ücret Hesaplama</h3>
                     <p class="main-bg--dic">Üyelerimiz için ücretlendirmeler, C-Şarj'ın özel fiyatları ile cihazlardan aktarılan enerji miktarına göre kilowatt cinsinden hesaplanır. EPDK enerji birim fiyatları üzerinden tüketilen enerjinin tarife karşılığı ve sağlanmış olan cihaz hizmetinin güç cinsine göre kullanım bedelinin toplamından oluşur.</p>
@@ -124,7 +124,7 @@
     <section class="main">
         <div class="container">
             <div class="main-bg main-left">
-                <img src="app/img/Img-5.png" alt="">
+                <img src="app/img/info/tree.png" alt="">
                 <div class="main-bg--title main-left--title">
                     <h3>Menzil Hesaplama</h3>
                     <p class="main-bg--dic">Teorik olarak en yüksek kullanım menzili, aracınızın batarya kapasitesinin ortalama 100 kilometredeki tüketim katalog verisine bölümüyle elde edilir. Ancak araç bataryasının sıfır (0) değerine kadar kullanımı hem yolda kalmamak hem de batarya ömrünün sağlığı açısından hiçbir zaman önerilmez. Bu nedenle gerçek menziliniz, matematiksel olarak elde edilecek değerden kısadır. Araçların 100 kilometre mesafede tüketecekleri enerjinin ortalama miktarı, hava sıcaklığı, kullanım koşulları ve yol şartlarına bağlı olarak + veya - yönde değişiklik gösterecektir. </p>
@@ -135,7 +135,7 @@
     <section class="main">
         <div class="container">
             <div class="main-bg">
-                <img src="app/img/Img-6.png" alt="">
+                <img src="app/img/info/four.png" alt="">
                 <div class="main-bg--title">
                     <h3>Mevzuat</h3>
                     <p class="main-bg--dic">Enerji Piyasası Düzenleme Kurumundan: Şarj Hizmeti Yönetmeliği

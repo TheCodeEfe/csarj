@@ -10,11 +10,15 @@ html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   font-size: 100%;
+  min-height: 100% !important;
+  height: 100%;
 }
 
 *,
 *:before,
 *:after {
+  margin: 0;
+  padding: 0;
   -webkit-box-sizing: inherit;
           box-sizing: inherit;
 }
@@ -30,7 +34,7 @@ body {
   overflow-x: hidden;
   margin: 0;
   padding: 0;
-  height: 100vh;
+  height: 100%;
   font-family: "Avenir Next";
   background: #F2F5F8;
 }
@@ -56,7 +60,8 @@ body {
 }
 @media (max-width: 39.9375em) {
   .container {
-    max-width: 343px;
+    max-width: 100%;
+    padding: 0px 16px;
   }
 }
 
@@ -81,6 +86,10 @@ img {
 
 button {
   cursor: pointer;
+}
+
+.overflow-none {
+  overflow: hidden;
 }
 
 /* normal = 400 */
@@ -1119,7 +1128,7 @@ header nav .menu--btn {
     margin-top: 24px;
   }
   .questions-item {
-    width: 343px;
+    width: 100%;
     margin-top: 16px;
   }
   .questions-item:nth-child(1) {
@@ -1426,6 +1435,9 @@ header nav .menu--btn {
     border: none;
     padding-bottom: 0px;
   }
+  .footer-main-right-box:nth-last-child(1) ul {
+    border: none !important;
+  }
   .footer-main-right-box .head {
     text-align: inherit;
     display: -webkit-box;
@@ -1727,6 +1739,11 @@ header nav .menu--btn {
     right: 0px;
     background: url("../img/svg/stamp.svg");
   }
+  .title-page--bread {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
   .title-page--title h1 {
     font-size: 32px;
   }
@@ -1754,6 +1771,11 @@ header nav .menu--btn {
   display: block;
   width: 100%;
   position: relative;
+  border-radius: 16px;
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  -ms-border-radius: 16px;
+  -o-border-radius: 16px;
 }
 .main-bg--bread a:hover {
   color: #07BEB8;
@@ -1850,6 +1872,7 @@ header nav .menu--btn {
   }
   .main .container {
     max-width: 100% !important;
+    padding: 0px !important;
   }
   .main-bg {
     -webkit-box-orient: vertical;
@@ -1879,11 +1902,20 @@ header nav .menu--btn {
     font-weight: 500;
     font-size: 16px;
   }
+  .main-bg--title button {
+    width: 100%;
+  }
+  .main-bg ul.main__contact_us {
+    margin-left: 0px;
+  }
   .main-left {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+  }
+  .main-left--title {
+    margin-right: 0px;
   }
 }
 
@@ -1892,6 +1924,7 @@ header nav .menu--btn {
   bottom: 24px;
   width: 100%;
   z-index: 21;
+  display: none;
 }
 .popup-bg {
   background: rgba(255, 255, 255, 0.96);
@@ -2479,6 +2512,7 @@ header nav .menu--btn {
   .contact_form .container {
     width: 100% !important;
     max-width: 100%;
+    padding: 0px;
   }
   .contact_form__bg {
     -webkit-box-orient: vertical !important;

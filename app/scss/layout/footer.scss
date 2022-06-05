@@ -249,6 +249,12 @@
                             padding-bottom: 0px;
                         }
                     }
+                    &:nth-last-child(1){
+                        ul{
+                            border: none !important;
+
+                        }
+                    }
                     .head{
                         text-align: inherit;
                         display: flex;
