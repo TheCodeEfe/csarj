@@ -28,7 +28,7 @@ elseif (strlen($Posted['mesaj']) <= 3)
 	$msg  = "Lütfen bir mesaj yazınız ";
 	$data = "mesaj";
 }
-*/
+test*/ 
 
 
 
