@@ -2,6 +2,10 @@
 @use "../util" as *;
 
 header{
+    @include breakpoint-down(small) {
+        overflow: auto;
+        position: relative;
+    }
     nav.header-mobile{       
         display: none;
         @include breakpoint-down(small) {
@@ -19,9 +23,11 @@ header{
             -moz-transition: 0.33s;
             -ms-transition: 0.33s;
             -o-transition: 0.33s;
+            overflow: auto;
             .menu{
                 &--nav{
                     display: block;
+                    
                     > ul{
                         li.menu--nav-ul{
                             >a{
@@ -303,4 +309,7 @@ header{
             }
         }
     }
+}
+.res-header{
+    height: 100%;
 }

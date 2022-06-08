@@ -3,6 +3,7 @@ $(".menu--btn").click(function(){
     $(".header-mobile").toggleClass("active");
     $(this).toggleClass("menu--btnimg");
     $('body').toggleClass('overflow-none');
+    $('.header').toggleClass('res-header');
 });
 $(document).ready(function () {
       $(document).on('click', '.questions-app', function () {
@@ -54,7 +55,9 @@ $(document).on("focusout",".form_contact__box input",function(){
 
 
 
-
+$("#listitem").swiperight(function() {
+  $.mobile.changePage("#page1");
+});
 
 
 
